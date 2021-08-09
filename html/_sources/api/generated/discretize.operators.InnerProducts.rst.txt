@@ -1,0 +1,33 @@
+﻿discretize.operators.InnerProducts
+==================================
+
+.. currentmodule:: discretize.operators
+
+.. inheritance-diagram:: InnerProducts
+    :parts: 1
+
+.. autoclass:: InnerProducts
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         InnerProducts.getEdgeInnerProduct
+         InnerProducts.getEdgeInnerProductDeriv
+         InnerProducts.getFaceInnerProduct
+         InnerProducts.getFaceInnerProductDeriv
+         InnerProducts.get_edge_inner_product
+         InnerProducts.get_edge_inner_product_deriv
+         InnerProducts.get_face_inner_product
+         InnerProducts.get_face_inner_product_deriv
+      
+  
+
+  
+  
+  
+
+.. minigallery:: discretize.operators.InnerProducts
+    :add-heading: Galleries and Tutorials using ``discretize.operators.InnerProducts``
+    :heading-level: -

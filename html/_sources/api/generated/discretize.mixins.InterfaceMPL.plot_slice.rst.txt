@@ -1,0 +1,6 @@
+discretize.mixins.InterfaceMPL.plot\_slice
+==========================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: InterfaceMPL.plot_slice

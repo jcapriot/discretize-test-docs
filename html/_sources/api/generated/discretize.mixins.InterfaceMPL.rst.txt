@@ -1,0 +1,32 @@
+﻿discretize.mixins.InterfaceMPL
+==============================
+
+.. currentmodule:: discretize.mixins
+
+.. inheritance-diagram:: InterfaceMPL
+    :parts: 1
+
+.. autoclass:: InterfaceMPL
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         InterfaceMPL.plotGrid
+         InterfaceMPL.plotImage
+         InterfaceMPL.plotSlice
+         InterfaceMPL.plot_3d_slicer
+         InterfaceMPL.plot_grid
+         InterfaceMPL.plot_image
+         InterfaceMPL.plot_slice
+      
+  
+
+  
+  
+  
+
+.. minigallery:: discretize.mixins.InterfaceMPL
+    :add-heading: Galleries and Tutorials using ``discretize.mixins.InterfaceMPL``
+    :heading-level: -

@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.average\_face\_x\_to\_cell
+=====================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.average_face_x_to_cell

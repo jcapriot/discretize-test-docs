@@ -1,0 +1,6 @@
+discretize.TreeMesh.average\_edge\_z\_to\_cell
+==============================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.average_edge_z_to_cell

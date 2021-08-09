@@ -1,0 +1,6 @@
+discretize.TensorMesh.shape\_edges\_y
+=====================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.shape_edges_y

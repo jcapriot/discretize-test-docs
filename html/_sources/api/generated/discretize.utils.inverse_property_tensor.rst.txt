@@ -1,0 +1,10 @@
+﻿discretize.utils.inverse\_property\_tensor
+==========================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: inverse_property_tensor
+
+.. minigallery:: discretize.utils.inverse_property_tensor
+    :add-heading: Galleries and Tutorials using ``discretize.utils.inverse_property_tensor``
+    :heading-level: -

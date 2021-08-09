@@ -1,0 +1,6 @@
+discretize.operators.DiffOperators.cell\_gradient\_x
+====================================================
+
+.. currentmodule:: discretize.operators
+
+.. autoproperty:: DiffOperators.cell_gradient_x

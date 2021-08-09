@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.shape\_nodes
+=======================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.shape_nodes

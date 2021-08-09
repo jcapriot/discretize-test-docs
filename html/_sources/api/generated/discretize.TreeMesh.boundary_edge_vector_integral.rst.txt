@@ -1,0 +1,6 @@
+discretize.TreeMesh.boundary\_edge\_vector\_integral
+====================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.boundary_edge_vector_integral

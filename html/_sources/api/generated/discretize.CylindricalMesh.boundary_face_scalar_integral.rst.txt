@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.boundary\_face\_scalar\_integral
+===========================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.boundary_face_scalar_integral

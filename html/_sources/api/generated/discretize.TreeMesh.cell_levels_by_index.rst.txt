@@ -1,0 +1,6 @@
+discretize.TreeMesh.cell\_levels\_by\_index
+===========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.cell_levels_by_index

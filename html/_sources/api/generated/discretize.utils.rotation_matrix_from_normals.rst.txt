@@ -1,0 +1,10 @@
+﻿discretize.utils.rotation\_matrix\_from\_normals
+================================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: rotation_matrix_from_normals
+
+.. minigallery:: discretize.utils.rotation_matrix_from_normals
+    :add-heading: Galleries and Tutorials using ``discretize.utils.rotation_matrix_from_normals``
+    :heading-level: -

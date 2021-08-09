@@ -1,0 +1,6 @@
+discretize.TreeMesh.n\_total\_nodes
+===================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.n_total_nodes

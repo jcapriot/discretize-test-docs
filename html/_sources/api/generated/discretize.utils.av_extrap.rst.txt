@@ -1,0 +1,10 @@
+﻿discretize.utils.av\_extrap
+===========================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: av_extrap
+
+.. minigallery:: discretize.utils.av_extrap
+    :add-heading: Galleries and Tutorials using ``discretize.utils.av_extrap``
+    :heading-level: -

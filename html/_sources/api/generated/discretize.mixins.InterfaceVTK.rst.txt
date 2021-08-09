@@ -1,0 +1,29 @@
+﻿discretize.mixins.InterfaceVTK
+==============================
+
+.. currentmodule:: discretize.mixins
+
+.. inheritance-diagram:: InterfaceVTK
+    :parts: 1
+
+.. autoclass:: InterfaceVTK
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         InterfaceVTK.toVTK
+         InterfaceVTK.to_vtk
+         InterfaceVTK.writeVTK
+         InterfaceVTK.write_vtk
+      
+  
+
+  
+  
+  
+
+.. minigallery:: discretize.mixins.InterfaceVTK
+    :add-heading: Galleries and Tutorials using ``discretize.mixins.InterfaceVTK``
+    :heading-level: -

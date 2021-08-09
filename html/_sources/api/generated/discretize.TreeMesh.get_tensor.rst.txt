@@ -1,0 +1,6 @@
+discretize.TreeMesh.get\_tensor
+===============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.get_tensor

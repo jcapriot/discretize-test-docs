@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.project\_face\_to\_boundary\_face
+============================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.project_face_to_boundary_face

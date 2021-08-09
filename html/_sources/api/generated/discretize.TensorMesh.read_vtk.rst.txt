@@ -1,0 +1,6 @@
+discretize.TensorMesh.read\_vtk
+===============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.read_vtk

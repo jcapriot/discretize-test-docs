@@ -1,0 +1,6 @@
+discretize.mixins.TensorMeshIO.readVTK
+======================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: TensorMeshIO.readVTK

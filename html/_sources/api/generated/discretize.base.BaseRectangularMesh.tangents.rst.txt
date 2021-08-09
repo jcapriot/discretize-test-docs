@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.tangents
+============================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseRectangularMesh.tangents

@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.write\_vtk
+=====================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.write_vtk

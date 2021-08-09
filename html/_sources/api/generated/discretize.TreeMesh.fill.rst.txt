@@ -1,0 +1,6 @@
+discretize.TreeMesh.fill
+========================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.fill

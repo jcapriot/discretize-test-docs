@@ -1,0 +1,6 @@
+discretize.TreeMesh.read\_UBC
+=============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.read_UBC

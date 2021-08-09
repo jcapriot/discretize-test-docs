@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.getBCProjWF\_simple
+==============================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.getBCProjWF_simple

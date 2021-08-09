@@ -1,0 +1,10 @@
+﻿discretize.utils.volume\_tetrahedron
+====================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: volume_tetrahedron
+
+.. minigallery:: discretize.utils.volume_tetrahedron
+    :add-heading: Galleries and Tutorials using ``discretize.utils.volume_tetrahedron``
+    :heading-level: -

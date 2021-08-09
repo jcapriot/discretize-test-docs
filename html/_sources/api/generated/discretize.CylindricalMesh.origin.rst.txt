@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.origin
+=================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.origin

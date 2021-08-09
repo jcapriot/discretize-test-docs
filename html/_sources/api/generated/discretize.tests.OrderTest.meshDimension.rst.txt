@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.meshDimension
+========================================
+
+.. currentmodule:: discretize.tests
+
+.. autoattribute:: OrderTest.meshDimension

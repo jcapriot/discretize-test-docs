@@ -1,0 +1,35 @@
+﻿discretize.utils.Identity
+=========================
+
+.. currentmodule:: discretize.utils
+
+.. inheritance-diagram:: Identity
+    :parts: 1
+
+.. autoclass:: Identity
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         Identity.__mul__
+         Identity.transpose
+      
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         Identity.T
+         Identity.ndim
+         Identity.shape
+  
+  
+
+.. minigallery:: discretize.utils.Identity
+    :add-heading: Galleries and Tutorials using ``discretize.utils.Identity``
+    :heading-level: -

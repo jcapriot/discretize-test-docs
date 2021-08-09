@@ -1,0 +1,6 @@
+discretize.TreeMesh.getEdgeInnerProduct
+=======================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.getEdgeInnerProduct

@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.tolerance
+====================================
+
+.. currentmodule:: discretize.tests
+
+.. autoattribute:: OrderTest.tolerance

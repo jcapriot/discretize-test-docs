@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.getEdgeInnerProductDeriv
+===================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.getEdgeInnerProductDeriv

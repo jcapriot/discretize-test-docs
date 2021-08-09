@@ -1,0 +1,6 @@
+discretize.TreeMesh.n\_faces\_z
+===============================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.n_faces_z

@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertRaisesRegexp
+=============================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertRaisesRegexp

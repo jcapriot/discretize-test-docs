@@ -1,0 +1,6 @@
+discretize.TreeMesh.origin
+==========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.origin

@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.plotImage
+====================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.plotImage

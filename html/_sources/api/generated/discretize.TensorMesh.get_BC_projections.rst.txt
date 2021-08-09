@@ -1,0 +1,6 @@
+discretize.TensorMesh.get\_BC\_projections
+==========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.get_BC_projections

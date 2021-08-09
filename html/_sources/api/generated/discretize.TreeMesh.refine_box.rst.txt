@@ -1,0 +1,6 @@
+discretize.TreeMesh.refine\_box
+===============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.refine_box

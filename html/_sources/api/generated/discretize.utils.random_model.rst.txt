@@ -1,0 +1,10 @@
+﻿discretize.utils.random\_model
+==============================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: random_model
+
+.. minigallery:: discretize.utils.random_model
+    :add-heading: Galleries and Tutorials using ``discretize.utils.random_model``
+    :heading-level: -

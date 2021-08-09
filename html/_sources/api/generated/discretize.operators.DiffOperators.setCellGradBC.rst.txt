@@ -1,0 +1,6 @@
+discretize.operators.DiffOperators.setCellGradBC
+================================================
+
+.. currentmodule:: discretize.operators
+
+.. automethod:: DiffOperators.setCellGradBC

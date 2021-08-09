@@ -1,0 +1,6 @@
+discretize.mixins.TensorMeshIO.readUBC
+======================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: TensorMeshIO.readUBC

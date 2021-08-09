@@ -1,0 +1,6 @@
+discretize.mixins.Slicer.update\_zy
+===================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: Slicer.update_zy

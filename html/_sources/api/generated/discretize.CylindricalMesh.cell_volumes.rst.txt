@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.cell\_volumes
+========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.cell_volumes

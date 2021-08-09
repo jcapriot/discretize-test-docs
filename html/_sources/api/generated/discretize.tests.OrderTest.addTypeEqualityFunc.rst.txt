@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.addTypeEqualityFunc
+==============================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.addTypeEqualityFunc

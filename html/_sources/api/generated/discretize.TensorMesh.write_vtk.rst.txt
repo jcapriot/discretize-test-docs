@@ -1,0 +1,6 @@
+discretize.TensorMesh.write\_vtk
+================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.write_vtk

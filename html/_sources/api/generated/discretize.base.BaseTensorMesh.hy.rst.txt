@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.hy
+=================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.hy

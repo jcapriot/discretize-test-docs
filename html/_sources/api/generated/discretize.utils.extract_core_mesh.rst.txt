@@ -1,0 +1,10 @@
+﻿discretize.utils.extract\_core\_mesh
+====================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: extract_core_mesh
+
+.. minigallery:: discretize.utils.extract_core_mesh
+    :add-heading: Galleries and Tutorials using ``discretize.utils.extract_core_mesh``
+    :heading-level: -

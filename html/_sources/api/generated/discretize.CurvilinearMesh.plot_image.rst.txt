@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.plot\_image
+======================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.plot_image

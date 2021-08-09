@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.cartesian\_origin
+============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.cartesian_origin

@@ -1,0 +1,186 @@
+﻿discretize.CurvilinearMesh
+==========================
+
+.. currentmodule:: discretize
+
+.. inheritance-diagram:: CurvilinearMesh
+    :parts: 1
+
+.. autoclass:: CurvilinearMesh
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         CurvilinearMesh.__len__
+         CurvilinearMesh.cell_gradient_weak_form_robin
+         CurvilinearMesh.copy
+         CurvilinearMesh.deserialize
+         CurvilinearMesh.edge_divergence_weak_form_robin
+         CurvilinearMesh.equals
+         CurvilinearMesh.from_omf
+         CurvilinearMesh.getBCProjWF
+         CurvilinearMesh.getBCProjWF_simple
+         CurvilinearMesh.getEdgeInnerProduct
+         CurvilinearMesh.getEdgeInnerProductDeriv
+         CurvilinearMesh.getFaceInnerProduct
+         CurvilinearMesh.getFaceInnerProductDeriv
+         CurvilinearMesh.get_BC_projections
+         CurvilinearMesh.get_BC_projections_simple
+         CurvilinearMesh.get_edge_inner_product
+         CurvilinearMesh.get_edge_inner_product_deriv
+         CurvilinearMesh.get_face_inner_product
+         CurvilinearMesh.get_face_inner_product_deriv
+         CurvilinearMesh.plotGrid
+         CurvilinearMesh.plotImage
+         CurvilinearMesh.plotSlice
+         CurvilinearMesh.plot_3d_slicer
+         CurvilinearMesh.plot_grid
+         CurvilinearMesh.plot_image
+         CurvilinearMesh.plot_slice
+         CurvilinearMesh.projectEdgeVector
+         CurvilinearMesh.projectFaceVector
+         CurvilinearMesh.project_edge_vector
+         CurvilinearMesh.project_face_vector
+         CurvilinearMesh.r
+         CurvilinearMesh.reshape
+         CurvilinearMesh.save
+         CurvilinearMesh.serialize
+         CurvilinearMesh.setCellGradBC
+         CurvilinearMesh.set_cell_gradient_BC
+         CurvilinearMesh.toVTK
+         CurvilinearMesh.to_dict
+         CurvilinearMesh.to_omf
+         CurvilinearMesh.to_vtk
+         CurvilinearMesh.validate
+         CurvilinearMesh.writeVTK
+         CurvilinearMesh.write_vtk
+      
+         CurvilinearMesh.__len__
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         CurvilinearMesh.area
+         CurvilinearMesh.average_cell_to_edge
+         CurvilinearMesh.average_cell_to_face
+         CurvilinearMesh.average_cell_vector_to_face
+         CurvilinearMesh.average_edge_to_cell
+         CurvilinearMesh.average_edge_to_cell_vector
+         CurvilinearMesh.average_edge_to_face_vector
+         CurvilinearMesh.average_edge_x_to_cell
+         CurvilinearMesh.average_edge_y_to_cell
+         CurvilinearMesh.average_edge_z_to_cell
+         CurvilinearMesh.average_face_to_cell
+         CurvilinearMesh.average_face_to_cell_vector
+         CurvilinearMesh.average_face_x_to_cell
+         CurvilinearMesh.average_face_y_to_cell
+         CurvilinearMesh.average_face_z_to_cell
+         CurvilinearMesh.average_node_to_cell
+         CurvilinearMesh.average_node_to_edge
+         CurvilinearMesh.average_node_to_face
+         CurvilinearMesh.axis_u
+         CurvilinearMesh.axis_v
+         CurvilinearMesh.axis_w
+         CurvilinearMesh.boundary_edge_vector_integral
+         CurvilinearMesh.boundary_edges
+         CurvilinearMesh.boundary_face_outward_normals
+         CurvilinearMesh.boundary_face_scalar_integral
+         CurvilinearMesh.boundary_faces
+         CurvilinearMesh.boundary_node_vector_integral
+         CurvilinearMesh.boundary_nodes
+         CurvilinearMesh.cellGrad
+         CurvilinearMesh.cellGradBC
+         CurvilinearMesh.cellGradx
+         CurvilinearMesh.cellGrady
+         CurvilinearMesh.cellGradz
+         CurvilinearMesh.cell_centers
+         CurvilinearMesh.cell_gradient
+         CurvilinearMesh.cell_gradient_BC
+         CurvilinearMesh.cell_gradient_x
+         CurvilinearMesh.cell_gradient_y
+         CurvilinearMesh.cell_gradient_z
+         CurvilinearMesh.cell_volumes
+         CurvilinearMesh.dim
+         CurvilinearMesh.edge
+         CurvilinearMesh.edgeCurl
+         CurvilinearMesh.edge_curl
+         CurvilinearMesh.edge_lengths
+         CurvilinearMesh.edge_tangents
+         CurvilinearMesh.edges
+         CurvilinearMesh.edges_x
+         CurvilinearMesh.edges_y
+         CurvilinearMesh.edges_z
+         CurvilinearMesh.faceDiv
+         CurvilinearMesh.faceDivx
+         CurvilinearMesh.faceDivy
+         CurvilinearMesh.faceDivz
+         CurvilinearMesh.face_areas
+         CurvilinearMesh.face_divergence
+         CurvilinearMesh.face_normals
+         CurvilinearMesh.face_x_divergence
+         CurvilinearMesh.face_y_divergence
+         CurvilinearMesh.face_z_divergence
+         CurvilinearMesh.faces
+         CurvilinearMesh.faces_x
+         CurvilinearMesh.faces_y
+         CurvilinearMesh.faces_z
+         CurvilinearMesh.nCx
+         CurvilinearMesh.nCy
+         CurvilinearMesh.nCz
+         CurvilinearMesh.nNx
+         CurvilinearMesh.nNy
+         CurvilinearMesh.nNz
+         CurvilinearMesh.n_cells
+         CurvilinearMesh.n_edges
+         CurvilinearMesh.n_edges_per_direction
+         CurvilinearMesh.n_edges_x
+         CurvilinearMesh.n_edges_y
+         CurvilinearMesh.n_edges_z
+         CurvilinearMesh.n_faces
+         CurvilinearMesh.n_faces_per_direction
+         CurvilinearMesh.n_faces_x
+         CurvilinearMesh.n_faces_y
+         CurvilinearMesh.n_faces_z
+         CurvilinearMesh.n_nodes
+         CurvilinearMesh.nodalGrad
+         CurvilinearMesh.nodalLaplacian
+         CurvilinearMesh.nodal_gradient
+         CurvilinearMesh.nodal_laplacian
+         CurvilinearMesh.node_list
+         CurvilinearMesh.nodes
+         CurvilinearMesh.normals
+         CurvilinearMesh.orientation
+         CurvilinearMesh.origin
+         CurvilinearMesh.project_edge_to_boundary_edge
+         CurvilinearMesh.project_face_to_boundary_face
+         CurvilinearMesh.project_node_to_boundary_node
+         CurvilinearMesh.reference_is_rotated
+         CurvilinearMesh.reference_system
+         CurvilinearMesh.rotation_matrix
+         CurvilinearMesh.shape_cells
+         CurvilinearMesh.shape_edges_x
+         CurvilinearMesh.shape_edges_y
+         CurvilinearMesh.shape_edges_z
+         CurvilinearMesh.shape_faces_x
+         CurvilinearMesh.shape_faces_y
+         CurvilinearMesh.shape_faces_z
+         CurvilinearMesh.shape_nodes
+         CurvilinearMesh.stencil_cell_gradient
+         CurvilinearMesh.stencil_cell_gradient_x
+         CurvilinearMesh.stencil_cell_gradient_y
+         CurvilinearMesh.stencil_cell_gradient_z
+         CurvilinearMesh.tangents
+         CurvilinearMesh.vol
+         CurvilinearMesh.x0
+  
+  
+
+.. minigallery:: discretize.CurvilinearMesh
+    :add-heading: Galleries and Tutorials using ``discretize.CurvilinearMesh``
+    :heading-level: -

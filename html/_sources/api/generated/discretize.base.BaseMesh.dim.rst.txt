@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.dim
+============================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseMesh.dim

@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.serialize
+==================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseMesh.serialize

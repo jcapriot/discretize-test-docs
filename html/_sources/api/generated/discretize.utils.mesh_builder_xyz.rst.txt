@@ -1,0 +1,10 @@
+﻿discretize.utils.mesh\_builder\_xyz
+===================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: mesh_builder_xyz
+
+.. minigallery:: discretize.utils.mesh_builder_xyz
+    :add-heading: Galleries and Tutorials using ``discretize.utils.mesh_builder_xyz``
+    :heading-level: -

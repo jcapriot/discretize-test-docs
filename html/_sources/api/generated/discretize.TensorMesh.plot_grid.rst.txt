@@ -1,0 +1,6 @@
+discretize.TensorMesh.plot\_grid
+================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.plot_grid

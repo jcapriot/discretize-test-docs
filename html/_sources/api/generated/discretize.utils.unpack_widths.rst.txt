@@ -1,0 +1,10 @@
+﻿discretize.utils.unpack\_widths
+===============================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: unpack_widths
+
+.. minigallery:: discretize.utils.unpack_widths
+    :add-heading: Galleries and Tutorials using ``discretize.utils.unpack_widths``
+    :heading-level: -

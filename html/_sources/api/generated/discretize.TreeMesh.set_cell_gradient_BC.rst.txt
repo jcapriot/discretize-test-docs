@@ -1,0 +1,6 @@
+discretize.TreeMesh.set\_cell\_gradient\_BC
+===========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.set_cell_gradient_BC

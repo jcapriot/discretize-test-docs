@@ -1,0 +1,10 @@
+﻿discretize.utils.ddx
+====================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: ddx
+
+.. minigallery:: discretize.utils.ddx
+    :add-heading: Galleries and Tutorials using ``discretize.utils.ddx``
+    :heading-level: -

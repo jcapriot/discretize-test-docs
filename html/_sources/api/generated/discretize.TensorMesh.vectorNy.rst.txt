@@ -1,0 +1,6 @@
+discretize.TensorMesh.vectorNy
+==============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.vectorNy

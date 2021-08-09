@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.n\_edges\_per\_direction
+===================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.n_edges_per_direction

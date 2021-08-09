@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.equals
+=================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.equals

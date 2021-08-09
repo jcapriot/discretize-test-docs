@@ -1,0 +1,6 @@
+discretize.TensorMesh.vectorCCz
+===============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.vectorCCz

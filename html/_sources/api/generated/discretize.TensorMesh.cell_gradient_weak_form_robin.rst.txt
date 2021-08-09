@@ -1,0 +1,6 @@
+discretize.TensorMesh.cell\_gradient\_weak\_form\_robin
+=======================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.cell_gradient_weak_form_robin

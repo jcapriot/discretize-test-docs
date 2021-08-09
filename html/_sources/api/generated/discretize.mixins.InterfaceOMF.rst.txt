@@ -1,0 +1,27 @@
+﻿discretize.mixins.InterfaceOMF
+==============================
+
+.. currentmodule:: discretize.mixins
+
+.. inheritance-diagram:: InterfaceOMF
+    :parts: 1
+
+.. autoclass:: InterfaceOMF
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         InterfaceOMF.from_omf
+         InterfaceOMF.to_omf
+      
+  
+
+  
+  
+  
+
+.. minigallery:: discretize.mixins.InterfaceOMF
+    :add-heading: Galleries and Tutorials using ``discretize.mixins.InterfaceOMF``
+    :heading-level: -

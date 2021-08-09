@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.expectedOrders
+=========================================
+
+.. currentmodule:: discretize.tests
+
+.. autoattribute:: OrderTest.expectedOrders

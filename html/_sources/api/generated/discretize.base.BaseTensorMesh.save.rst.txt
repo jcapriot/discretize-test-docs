@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.save
+===================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseTensorMesh.save

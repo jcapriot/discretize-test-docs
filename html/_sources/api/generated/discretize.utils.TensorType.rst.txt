@@ -1,0 +1,25 @@
+﻿discretize.utils.TensorType
+===========================
+
+.. currentmodule:: discretize.utils
+
+.. inheritance-diagram:: TensorType
+    :parts: 1
+
+.. autoclass:: TensorType
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+      
+  
+
+  
+  
+  
+
+.. minigallery:: discretize.utils.TensorType
+    :add-heading: Galleries and Tutorials using ``discretize.utils.TensorType``
+    :heading-level: -

@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.boundary\_edge\_vector\_integral
+===========================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.boundary_edge_vector_integral

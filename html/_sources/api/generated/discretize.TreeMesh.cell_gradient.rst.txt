@@ -1,0 +1,6 @@
+discretize.TreeMesh.cell\_gradient
+==================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.cell_gradient

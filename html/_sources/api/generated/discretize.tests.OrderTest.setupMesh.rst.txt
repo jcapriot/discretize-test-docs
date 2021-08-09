@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.setupMesh
+====================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.setupMesh

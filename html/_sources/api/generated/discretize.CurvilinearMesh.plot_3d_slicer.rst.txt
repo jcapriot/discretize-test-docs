@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.plot\_3d\_slicer
+===========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.plot_3d_slicer

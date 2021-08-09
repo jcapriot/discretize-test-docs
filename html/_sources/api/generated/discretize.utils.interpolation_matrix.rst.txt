@@ -1,0 +1,10 @@
+﻿discretize.utils.interpolation\_matrix
+======================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: interpolation_matrix
+
+.. minigallery:: discretize.utils.interpolation_matrix
+    :add-heading: Galleries and Tutorials using ``discretize.utils.interpolation_matrix``
+    :heading-level: -

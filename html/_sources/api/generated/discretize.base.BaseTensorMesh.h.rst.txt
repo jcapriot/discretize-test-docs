@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.h
+================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.h

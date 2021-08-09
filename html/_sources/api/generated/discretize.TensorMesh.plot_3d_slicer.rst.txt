@@ -1,0 +1,6 @@
+discretize.TensorMesh.plot\_3d\_slicer
+======================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.plot_3d_slicer

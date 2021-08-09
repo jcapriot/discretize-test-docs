@@ -1,0 +1,11 @@
+<map id="inheritance9c8b01e00d" name="inheritance9c8b01e00d">
+<area shape="rect" id="node1" href="discretize.base.BaseMesh.html#discretize.base.BaseMesh" target="_top" title="Base mesh class for the ``discretize`` package" alt="" coords="13,5,97,31"/>
+<area shape="rect" id="node2" href="discretize.base.BaseRectangularMesh.html#discretize.base.BaseRectangularMesh" target="_top" title="Base rectangular mesh class for the ``discretize`` package." alt="" coords="153,5,307,31"/>
+<area shape="rect" id="node3" href="#discretize.CurvilinearMesh" target="_top" title="Curvilinear mesh class." alt="" coords="355,80,468,105"/>
+<area shape="rect" id="node4" href="discretize.operators.DiffOperators.html#discretize.operators.DiffOperators" target="_top" title="Class used for creating differential and averaging operators." alt="" coords="181,55,279,80"/>
+<area shape="rect" id="node5" href="discretize.operators.InnerProducts.html#discretize.operators.InnerProducts" target="_top" title="Class for constructing inner product matrices." alt="" coords="179,104,281,129"/>
+<area shape="rect" id="node6" title="This class handles all the avaialble mixins that can be inherrited" alt="" coords="175,153,285,179"/>
+<area shape="rect" id="node7" href="discretize.mixins.InterfaceMPL.html#discretize.mixins.InterfaceMPL" target="_top" title="Class for plotting ``discretize`` meshes with matplotlib." alt="" coords="6,104,105,129"/>
+<area shape="rect" id="node8" href="discretize.mixins.InterfaceVTK.html#discretize.mixins.InterfaceVTK" target="_top" title="Class enabling straight forward conversion between ``discretize``" alt="" coords="7,153,103,179"/>
+<area shape="rect" id="node9" href="discretize.mixins.InterfaceOMF.html#discretize.mixins.InterfaceOMF" target="_top" title="The ``InterfaceOMF`` class was designed for easy conversion between" alt="" coords="5,203,105,228"/>
+</map>

@@ -1,0 +1,10 @@
+﻿discretize.utils.is\_scalar
+===========================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: is_scalar
+
+.. minigallery:: discretize.utils.is_scalar
+    :add-heading: Galleries and Tutorials using ``discretize.utils.is_scalar``
+    :heading-level: -

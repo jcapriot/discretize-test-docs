@@ -1,0 +1,228 @@
+﻿discretize.CylindricalMesh
+==========================
+
+.. currentmodule:: discretize
+
+.. inheritance-diagram:: CylindricalMesh
+    :parts: 1
+
+.. autoclass:: CylindricalMesh
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         CylindricalMesh.__len__
+         CylindricalMesh.cartesianGrid
+         CylindricalMesh.cartesian_grid
+         CylindricalMesh.cell_gradient_weak_form_robin
+         CylindricalMesh.copy
+         CylindricalMesh.deserialize
+         CylindricalMesh.edge_divergence_weak_form_robin
+         CylindricalMesh.equals
+         CylindricalMesh.from_omf
+         CylindricalMesh.getBCProjWF
+         CylindricalMesh.getBCProjWF_simple
+         CylindricalMesh.getEdgeInnerProduct
+         CylindricalMesh.getEdgeInnerProductDeriv
+         CylindricalMesh.getFaceInnerProduct
+         CylindricalMesh.getFaceInnerProductDeriv
+         CylindricalMesh.getInterpolationMat
+         CylindricalMesh.getInterpolationMatCartMesh
+         CylindricalMesh.getTensor
+         CylindricalMesh.get_BC_projections
+         CylindricalMesh.get_BC_projections_simple
+         CylindricalMesh.get_edge_inner_product
+         CylindricalMesh.get_edge_inner_product_deriv
+         CylindricalMesh.get_face_inner_product
+         CylindricalMesh.get_face_inner_product_deriv
+         CylindricalMesh.get_interpolation_matrix
+         CylindricalMesh.get_interpolation_matrix_cartesian_mesh
+         CylindricalMesh.get_tensor
+         CylindricalMesh.isInside
+         CylindricalMesh.is_inside
+         CylindricalMesh.plotGrid
+         CylindricalMesh.plotImage
+         CylindricalMesh.plotSlice
+         CylindricalMesh.plot_3d_slicer
+         CylindricalMesh.plot_grid
+         CylindricalMesh.plot_image
+         CylindricalMesh.plot_slice
+         CylindricalMesh.projectEdgeVector
+         CylindricalMesh.projectFaceVector
+         CylindricalMesh.project_edge_vector
+         CylindricalMesh.project_face_vector
+         CylindricalMesh.r
+         CylindricalMesh.reshape
+         CylindricalMesh.save
+         CylindricalMesh.serialize
+         CylindricalMesh.setCellGradBC
+         CylindricalMesh.set_cell_gradient_BC
+         CylindricalMesh.toVTK
+         CylindricalMesh.to_dict
+         CylindricalMesh.to_omf
+         CylindricalMesh.to_vtk
+         CylindricalMesh.validate
+         CylindricalMesh.writeVTK
+         CylindricalMesh.write_vtk
+      
+         CylindricalMesh.__len__
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         CylindricalMesh.area
+         CylindricalMesh.areaFx
+         CylindricalMesh.areaFy
+         CylindricalMesh.areaFz
+         CylindricalMesh.average_cell_to_edge
+         CylindricalMesh.average_cell_to_face
+         CylindricalMesh.average_cell_vector_to_face
+         CylindricalMesh.average_edge_to_cell
+         CylindricalMesh.average_edge_to_cell_vector
+         CylindricalMesh.average_edge_to_face_vector
+         CylindricalMesh.average_edge_x_to_cell
+         CylindricalMesh.average_edge_y_to_cell
+         CylindricalMesh.average_edge_z_to_cell
+         CylindricalMesh.average_face_to_cell
+         CylindricalMesh.average_face_to_cell_vector
+         CylindricalMesh.average_face_x_to_cell
+         CylindricalMesh.average_face_y_to_cell
+         CylindricalMesh.average_face_z_to_cell
+         CylindricalMesh.average_node_to_cell
+         CylindricalMesh.average_node_to_edge
+         CylindricalMesh.average_node_to_face
+         CylindricalMesh.axis_u
+         CylindricalMesh.axis_v
+         CylindricalMesh.axis_w
+         CylindricalMesh.boundary_edge_vector_integral
+         CylindricalMesh.boundary_edges
+         CylindricalMesh.boundary_face_outward_normals
+         CylindricalMesh.boundary_face_scalar_integral
+         CylindricalMesh.boundary_faces
+         CylindricalMesh.boundary_node_vector_integral
+         CylindricalMesh.boundary_nodes
+         CylindricalMesh.cartesianOrigin
+         CylindricalMesh.cartesian_origin
+         CylindricalMesh.cellGrad
+         CylindricalMesh.cellGradBC
+         CylindricalMesh.cellGradx
+         CylindricalMesh.cellGrady
+         CylindricalMesh.cellGradz
+         CylindricalMesh.cell_centers
+         CylindricalMesh.cell_centers_x
+         CylindricalMesh.cell_centers_y
+         CylindricalMesh.cell_centers_z
+         CylindricalMesh.cell_gradient
+         CylindricalMesh.cell_gradient_BC
+         CylindricalMesh.cell_gradient_x
+         CylindricalMesh.cell_gradient_y
+         CylindricalMesh.cell_gradient_z
+         CylindricalMesh.cell_volumes
+         CylindricalMesh.dim
+         CylindricalMesh.edge
+         CylindricalMesh.edgeCurl
+         CylindricalMesh.edgeEx
+         CylindricalMesh.edgeEy
+         CylindricalMesh.edgeEz
+         CylindricalMesh.edge_curl
+         CylindricalMesh.edge_lengths
+         CylindricalMesh.edge_tangents
+         CylindricalMesh.edge_x_lengths
+         CylindricalMesh.edge_y_lengths
+         CylindricalMesh.edge_z_lengths
+         CylindricalMesh.edges
+         CylindricalMesh.edges_x
+         CylindricalMesh.edges_y
+         CylindricalMesh.edges_z
+         CylindricalMesh.faceDiv
+         CylindricalMesh.faceDivx
+         CylindricalMesh.faceDivy
+         CylindricalMesh.faceDivz
+         CylindricalMesh.face_areas
+         CylindricalMesh.face_divergence
+         CylindricalMesh.face_normals
+         CylindricalMesh.face_x_areas
+         CylindricalMesh.face_x_divergence
+         CylindricalMesh.face_y_areas
+         CylindricalMesh.face_y_divergence
+         CylindricalMesh.face_z_areas
+         CylindricalMesh.face_z_divergence
+         CylindricalMesh.faces
+         CylindricalMesh.faces_x
+         CylindricalMesh.faces_y
+         CylindricalMesh.faces_z
+         CylindricalMesh.h
+         CylindricalMesh.h_gridded
+         CylindricalMesh.hx
+         CylindricalMesh.hy
+         CylindricalMesh.hz
+         CylindricalMesh.isSymmetric
+         CylindricalMesh.is_symmetric
+         CylindricalMesh.nCx
+         CylindricalMesh.nCy
+         CylindricalMesh.nCz
+         CylindricalMesh.nNx
+         CylindricalMesh.nNy
+         CylindricalMesh.nNz
+         CylindricalMesh.n_cells
+         CylindricalMesh.n_edges
+         CylindricalMesh.n_edges_per_direction
+         CylindricalMesh.n_edges_x
+         CylindricalMesh.n_edges_y
+         CylindricalMesh.n_edges_z
+         CylindricalMesh.n_faces
+         CylindricalMesh.n_faces_per_direction
+         CylindricalMesh.n_faces_x
+         CylindricalMesh.n_faces_y
+         CylindricalMesh.n_faces_z
+         CylindricalMesh.n_nodes
+         CylindricalMesh.nodalGrad
+         CylindricalMesh.nodalLaplacian
+         CylindricalMesh.nodal_gradient
+         CylindricalMesh.nodal_laplacian
+         CylindricalMesh.nodes
+         CylindricalMesh.nodes_x
+         CylindricalMesh.nodes_y
+         CylindricalMesh.nodes_z
+         CylindricalMesh.normals
+         CylindricalMesh.orientation
+         CylindricalMesh.origin
+         CylindricalMesh.project_edge_to_boundary_edge
+         CylindricalMesh.project_face_to_boundary_face
+         CylindricalMesh.project_node_to_boundary_node
+         CylindricalMesh.reference_is_rotated
+         CylindricalMesh.reference_system
+         CylindricalMesh.rotation_matrix
+         CylindricalMesh.shape_cells
+         CylindricalMesh.shape_edges_x
+         CylindricalMesh.shape_edges_y
+         CylindricalMesh.shape_edges_z
+         CylindricalMesh.shape_faces_x
+         CylindricalMesh.shape_faces_y
+         CylindricalMesh.shape_faces_z
+         CylindricalMesh.shape_nodes
+         CylindricalMesh.stencil_cell_gradient
+         CylindricalMesh.stencil_cell_gradient_x
+         CylindricalMesh.stencil_cell_gradient_y
+         CylindricalMesh.stencil_cell_gradient_z
+         CylindricalMesh.tangents
+         CylindricalMesh.vectorCCx
+         CylindricalMesh.vectorCCy
+         CylindricalMesh.vectorCCz
+         CylindricalMesh.vectorNx
+         CylindricalMesh.vectorNy
+         CylindricalMesh.vectorNz
+         CylindricalMesh.vol
+         CylindricalMesh.x0
+  
+  
+
+.. minigallery:: discretize.CylindricalMesh
+    :add-heading: Galleries and Tutorials using ``discretize.CylindricalMesh``
+    :heading-level: -

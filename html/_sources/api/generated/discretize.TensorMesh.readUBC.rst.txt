@@ -1,0 +1,6 @@
+discretize.TensorMesh.readUBC
+=============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.readUBC

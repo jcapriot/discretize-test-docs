@@ -1,0 +1,6 @@
+discretize.mixins.TensorMeshIO.write\_UBC
+=========================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: TensorMeshIO.write_UBC

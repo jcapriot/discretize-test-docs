@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertNotIsInstance
+==============================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertNotIsInstance

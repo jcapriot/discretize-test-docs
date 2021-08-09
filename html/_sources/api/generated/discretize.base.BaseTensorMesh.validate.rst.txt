@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.validate
+=======================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseTensorMesh.validate

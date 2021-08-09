@@ -1,0 +1,6 @@
+discretize.TreeMesh.hanging\_faces\_y
+=====================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.hanging_faces_y

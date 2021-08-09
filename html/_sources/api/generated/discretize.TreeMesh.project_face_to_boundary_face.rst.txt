@@ -1,0 +1,6 @@
+discretize.TreeMesh.project\_face\_to\_boundary\_face
+=====================================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.project_face_to_boundary_face

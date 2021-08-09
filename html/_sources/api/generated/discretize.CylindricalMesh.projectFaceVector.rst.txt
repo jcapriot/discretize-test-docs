@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.projectFaceVector
+============================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.projectFaceVector

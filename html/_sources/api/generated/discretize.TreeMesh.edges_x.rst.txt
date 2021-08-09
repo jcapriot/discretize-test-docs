@@ -1,0 +1,6 @@
+discretize.TreeMesh.edges\_x
+============================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.edges_x

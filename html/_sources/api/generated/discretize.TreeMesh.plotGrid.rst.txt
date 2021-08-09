@@ -1,0 +1,6 @@
+discretize.TreeMesh.plotGrid
+============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.plotGrid

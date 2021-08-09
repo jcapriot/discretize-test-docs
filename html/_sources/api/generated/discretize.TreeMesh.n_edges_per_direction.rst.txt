@@ -1,0 +1,6 @@
+discretize.TreeMesh.n\_edges\_per\_direction
+============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.n_edges_per_direction

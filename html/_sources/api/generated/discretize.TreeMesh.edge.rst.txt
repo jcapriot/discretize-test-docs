@@ -1,0 +1,6 @@
+discretize.TreeMesh.edge
+========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.edge

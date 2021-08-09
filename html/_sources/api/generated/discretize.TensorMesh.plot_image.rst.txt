@@ -1,0 +1,6 @@
+discretize.TensorMesh.plot\_image
+=================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.plot_image

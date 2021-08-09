@@ -1,0 +1,235 @@
+﻿discretize.TensorMesh
+=====================
+
+.. currentmodule:: discretize
+
+.. inheritance-diagram:: TensorMesh
+    :parts: 1
+
+.. autoclass:: TensorMesh
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         TensorMesh.__len__
+         TensorMesh.cell_gradient_weak_form_robin
+         TensorMesh.copy
+         TensorMesh.deserialize
+         TensorMesh.edge_divergence_weak_form_robin
+         TensorMesh.equals
+         TensorMesh.from_omf
+         TensorMesh.getBCProjWF
+         TensorMesh.getBCProjWF_simple
+         TensorMesh.getEdgeInnerProduct
+         TensorMesh.getEdgeInnerProductDeriv
+         TensorMesh.getFaceInnerProduct
+         TensorMesh.getFaceInnerProductDeriv
+         TensorMesh.getInterpolationMat
+         TensorMesh.getTensor
+         TensorMesh.get_BC_projections
+         TensorMesh.get_BC_projections_simple
+         TensorMesh.get_edge_inner_product
+         TensorMesh.get_edge_inner_product_deriv
+         TensorMesh.get_face_inner_product
+         TensorMesh.get_face_inner_product_deriv
+         TensorMesh.get_interpolation_matrix
+         TensorMesh.get_tensor
+         TensorMesh.isInside
+         TensorMesh.is_inside
+         TensorMesh.plotGrid
+         TensorMesh.plotImage
+         TensorMesh.plotSlice
+         TensorMesh.plot_3d_slicer
+         TensorMesh.plot_grid
+         TensorMesh.plot_image
+         TensorMesh.plot_slice
+         TensorMesh.projectEdgeVector
+         TensorMesh.projectFaceVector
+         TensorMesh.project_edge_vector
+         TensorMesh.project_face_vector
+         TensorMesh.r
+         TensorMesh.readModelUBC
+         TensorMesh.readUBC
+         TensorMesh.readVTK
+         TensorMesh.read_UBC
+         TensorMesh.read_model_UBC
+         TensorMesh.read_vtk
+         TensorMesh.reshape
+         TensorMesh.save
+         TensorMesh.serialize
+         TensorMesh.setCellGradBC
+         TensorMesh.set_cell_gradient_BC
+         TensorMesh.toVTK
+         TensorMesh.to_dict
+         TensorMesh.to_omf
+         TensorMesh.to_vtk
+         TensorMesh.validate
+         TensorMesh.vtk_to_tensor_mesh
+         TensorMesh.writeModelUBC
+         TensorMesh.writeUBC
+         TensorMesh.writeVTK
+         TensorMesh.write_UBC
+         TensorMesh.write_model_UBC
+         TensorMesh.write_vtk
+      
+         TensorMesh.__len__
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         TensorMesh.area
+         TensorMesh.areaFx
+         TensorMesh.areaFy
+         TensorMesh.areaFz
+         TensorMesh.average_cell_to_edge
+         TensorMesh.average_cell_to_face
+         TensorMesh.average_cell_vector_to_face
+         TensorMesh.average_edge_to_cell
+         TensorMesh.average_edge_to_cell_vector
+         TensorMesh.average_edge_to_face_vector
+         TensorMesh.average_edge_x_to_cell
+         TensorMesh.average_edge_y_to_cell
+         TensorMesh.average_edge_z_to_cell
+         TensorMesh.average_face_to_cell
+         TensorMesh.average_face_to_cell_vector
+         TensorMesh.average_face_x_to_cell
+         TensorMesh.average_face_y_to_cell
+         TensorMesh.average_face_z_to_cell
+         TensorMesh.average_node_to_cell
+         TensorMesh.average_node_to_edge
+         TensorMesh.average_node_to_face
+         TensorMesh.axis_u
+         TensorMesh.axis_v
+         TensorMesh.axis_w
+         TensorMesh.boundary_edge_vector_integral
+         TensorMesh.boundary_edges
+         TensorMesh.boundary_face_outward_normals
+         TensorMesh.boundary_face_scalar_integral
+         TensorMesh.boundary_faces
+         TensorMesh.boundary_node_vector_integral
+         TensorMesh.boundary_nodes
+         TensorMesh.cellBoundaryInd
+         TensorMesh.cellGrad
+         TensorMesh.cellGradBC
+         TensorMesh.cellGradx
+         TensorMesh.cellGrady
+         TensorMesh.cellGradz
+         TensorMesh.cell_boundary_indices
+         TensorMesh.cell_centers
+         TensorMesh.cell_centers_x
+         TensorMesh.cell_centers_y
+         TensorMesh.cell_centers_z
+         TensorMesh.cell_gradient
+         TensorMesh.cell_gradient_BC
+         TensorMesh.cell_gradient_x
+         TensorMesh.cell_gradient_y
+         TensorMesh.cell_gradient_z
+         TensorMesh.cell_volumes
+         TensorMesh.dim
+         TensorMesh.edge
+         TensorMesh.edgeCurl
+         TensorMesh.edgeEx
+         TensorMesh.edgeEy
+         TensorMesh.edgeEz
+         TensorMesh.edge_curl
+         TensorMesh.edge_lengths
+         TensorMesh.edge_tangents
+         TensorMesh.edge_x_lengths
+         TensorMesh.edge_y_lengths
+         TensorMesh.edge_z_lengths
+         TensorMesh.edges
+         TensorMesh.edges_x
+         TensorMesh.edges_y
+         TensorMesh.edges_z
+         TensorMesh.faceBoundaryInd
+         TensorMesh.faceDiv
+         TensorMesh.faceDivx
+         TensorMesh.faceDivy
+         TensorMesh.faceDivz
+         TensorMesh.face_areas
+         TensorMesh.face_boundary_indices
+         TensorMesh.face_divergence
+         TensorMesh.face_normals
+         TensorMesh.face_x_areas
+         TensorMesh.face_x_divergence
+         TensorMesh.face_y_areas
+         TensorMesh.face_y_divergence
+         TensorMesh.face_z_areas
+         TensorMesh.face_z_divergence
+         TensorMesh.faces
+         TensorMesh.faces_x
+         TensorMesh.faces_y
+         TensorMesh.faces_z
+         TensorMesh.h
+         TensorMesh.h_gridded
+         TensorMesh.hx
+         TensorMesh.hy
+         TensorMesh.hz
+         TensorMesh.nCx
+         TensorMesh.nCy
+         TensorMesh.nCz
+         TensorMesh.nNx
+         TensorMesh.nNy
+         TensorMesh.nNz
+         TensorMesh.n_cells
+         TensorMesh.n_edges
+         TensorMesh.n_edges_per_direction
+         TensorMesh.n_edges_x
+         TensorMesh.n_edges_y
+         TensorMesh.n_edges_z
+         TensorMesh.n_faces
+         TensorMesh.n_faces_per_direction
+         TensorMesh.n_faces_x
+         TensorMesh.n_faces_y
+         TensorMesh.n_faces_z
+         TensorMesh.n_nodes
+         TensorMesh.nodalGrad
+         TensorMesh.nodalLaplacian
+         TensorMesh.nodal_gradient
+         TensorMesh.nodal_laplacian
+         TensorMesh.nodes
+         TensorMesh.nodes_x
+         TensorMesh.nodes_y
+         TensorMesh.nodes_z
+         TensorMesh.normals
+         TensorMesh.orientation
+         TensorMesh.origin
+         TensorMesh.project_edge_to_boundary_edge
+         TensorMesh.project_face_to_boundary_face
+         TensorMesh.project_node_to_boundary_node
+         TensorMesh.reference_is_rotated
+         TensorMesh.reference_system
+         TensorMesh.rotation_matrix
+         TensorMesh.shape_cells
+         TensorMesh.shape_edges_x
+         TensorMesh.shape_edges_y
+         TensorMesh.shape_edges_z
+         TensorMesh.shape_faces_x
+         TensorMesh.shape_faces_y
+         TensorMesh.shape_faces_z
+         TensorMesh.shape_nodes
+         TensorMesh.stencil_cell_gradient
+         TensorMesh.stencil_cell_gradient_x
+         TensorMesh.stencil_cell_gradient_y
+         TensorMesh.stencil_cell_gradient_z
+         TensorMesh.tangents
+         TensorMesh.vectorCCx
+         TensorMesh.vectorCCy
+         TensorMesh.vectorCCz
+         TensorMesh.vectorNx
+         TensorMesh.vectorNy
+         TensorMesh.vectorNz
+         TensorMesh.vol
+         TensorMesh.x0
+  
+  
+
+.. minigallery:: discretize.TensorMesh
+    :add-heading: Galleries and Tutorials using ``discretize.TensorMesh``
+    :heading-level: -

@@ -1,0 +1,6 @@
+discretize.TreeMesh.nodal\_gradient
+===================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.nodal_gradient

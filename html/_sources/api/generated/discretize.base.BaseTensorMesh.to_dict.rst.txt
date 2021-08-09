@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.to\_dict
+=======================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseTensorMesh.to_dict

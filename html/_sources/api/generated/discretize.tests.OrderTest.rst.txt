@@ -1,0 +1,109 @@
+﻿discretize.tests.OrderTest
+==========================
+
+.. currentmodule:: discretize.tests
+
+.. inheritance-diagram:: OrderTest
+    :parts: 1
+
+.. autoclass:: OrderTest
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         OrderTest.__call__
+         OrderTest.addClassCleanup
+         OrderTest.addCleanup
+         OrderTest.addTypeEqualityFunc
+         OrderTest.assertAlmostEqual
+         OrderTest.assertAlmostEquals
+         OrderTest.assertCountEqual
+         OrderTest.assertDictContainsSubset
+         OrderTest.assertDictEqual
+         OrderTest.assertEqual
+         OrderTest.assertEquals
+         OrderTest.assertFalse
+         OrderTest.assertGreater
+         OrderTest.assertGreaterEqual
+         OrderTest.assertIn
+         OrderTest.assertIs
+         OrderTest.assertIsInstance
+         OrderTest.assertIsNone
+         OrderTest.assertIsNot
+         OrderTest.assertIsNotNone
+         OrderTest.assertLess
+         OrderTest.assertLessEqual
+         OrderTest.assertListEqual
+         OrderTest.assertLogs
+         OrderTest.assertMultiLineEqual
+         OrderTest.assertNotAlmostEqual
+         OrderTest.assertNotAlmostEquals
+         OrderTest.assertNotEqual
+         OrderTest.assertNotEquals
+         OrderTest.assertNotIn
+         OrderTest.assertNotIsInstance
+         OrderTest.assertNotRegex
+         OrderTest.assertNotRegexpMatches
+         OrderTest.assertRaises
+         OrderTest.assertRaisesRegex
+         OrderTest.assertRaisesRegexp
+         OrderTest.assertRegex
+         OrderTest.assertRegexpMatches
+         OrderTest.assertSequenceEqual
+         OrderTest.assertSetEqual
+         OrderTest.assertTrue
+         OrderTest.assertTupleEqual
+         OrderTest.assertWarns
+         OrderTest.assertWarnsRegex
+         OrderTest.assert_
+         OrderTest.countTestCases
+         OrderTest.debug
+         OrderTest.defaultTestResult
+         OrderTest.doClassCleanups
+         OrderTest.doCleanups
+         OrderTest.fail
+         OrderTest.failIf
+         OrderTest.failIfAlmostEqual
+         OrderTest.failIfEqual
+         OrderTest.failUnless
+         OrderTest.failUnlessAlmostEqual
+         OrderTest.failUnlessEqual
+         OrderTest.failUnlessRaises
+         OrderTest.getError
+         OrderTest.id
+         OrderTest.orderTest
+         OrderTest.run
+         OrderTest.setUp
+         OrderTest.setUpClass
+         OrderTest.setupMesh
+         OrderTest.shortDescription
+         OrderTest.skipTest
+         OrderTest.subTest
+         OrderTest.tearDown
+         OrderTest.tearDownClass
+      
+         OrderTest.__call__
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         OrderTest.expectedOrders
+         OrderTest.longMessage
+         OrderTest.maxDiff
+         OrderTest.meshDimension
+         OrderTest.meshSizes
+         OrderTest.meshTypes
+         OrderTest.name
+         OrderTest.tolerance
+  
+  
+
+.. minigallery:: discretize.tests.OrderTest
+    :add-heading: Galleries and Tutorials using ``discretize.tests.OrderTest``
+    :heading-level: -

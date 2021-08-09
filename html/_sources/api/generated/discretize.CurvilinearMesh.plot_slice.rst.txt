@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.plot\_slice
+======================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.plot_slice

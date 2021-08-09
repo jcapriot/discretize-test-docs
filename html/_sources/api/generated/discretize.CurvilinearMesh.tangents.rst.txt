@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.tangents
+===================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.tangents

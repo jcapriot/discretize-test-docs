@@ -1,0 +1,6 @@
+discretize.TreeMesh.get\_cells\_along\_line
+===========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.get_cells_along_line

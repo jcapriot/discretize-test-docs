@@ -1,0 +1,10 @@
+﻿discretize.utils.refine\_tree\_xyz
+==================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: refine_tree_xyz
+
+.. minigallery:: discretize.utils.refine_tree_xyz
+    :add-heading: Galleries and Tutorials using ``discretize.utils.refine_tree_xyz``
+    :heading-level: -

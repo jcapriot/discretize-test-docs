@@ -1,0 +1,6 @@
+discretize.utils.Identity.shape
+===============================
+
+.. currentmodule:: discretize.utils
+
+.. autoproperty:: Identity.shape

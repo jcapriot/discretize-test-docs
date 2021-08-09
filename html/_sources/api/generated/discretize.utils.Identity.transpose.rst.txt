@@ -1,0 +1,6 @@
+discretize.utils.Identity.transpose
+===================================
+
+.. currentmodule:: discretize.utils
+
+.. automethod:: Identity.transpose

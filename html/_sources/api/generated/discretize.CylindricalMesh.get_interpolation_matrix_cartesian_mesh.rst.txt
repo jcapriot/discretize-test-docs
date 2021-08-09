@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.get\_interpolation\_matrix\_cartesian\_mesh
+======================================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.get_interpolation_matrix_cartesian_mesh

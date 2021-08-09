@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.get\_face\_inner\_product
+====================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.get_face_inner_product

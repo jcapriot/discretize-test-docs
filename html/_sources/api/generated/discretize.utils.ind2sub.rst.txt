@@ -1,0 +1,10 @@
+﻿discretize.utils.ind2sub
+========================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: ind2sub
+
+.. minigallery:: discretize.utils.ind2sub
+    :add-heading: Galleries and Tutorials using ``discretize.utils.ind2sub``
+    :heading-level: -

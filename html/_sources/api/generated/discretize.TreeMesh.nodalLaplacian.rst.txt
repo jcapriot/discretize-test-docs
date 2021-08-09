@@ -1,0 +1,6 @@
+discretize.TreeMesh.nodalLaplacian
+==================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.nodalLaplacian

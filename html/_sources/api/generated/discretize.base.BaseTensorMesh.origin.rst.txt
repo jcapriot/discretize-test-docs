@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.origin
+=====================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.origin

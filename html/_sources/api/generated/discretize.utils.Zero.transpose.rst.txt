@@ -1,0 +1,6 @@
+discretize.utils.Zero.transpose
+===============================
+
+.. currentmodule:: discretize.utils
+
+.. automethod:: Zero.transpose

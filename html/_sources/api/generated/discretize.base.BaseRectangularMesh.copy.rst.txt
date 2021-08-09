@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.copy
+========================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseRectangularMesh.copy

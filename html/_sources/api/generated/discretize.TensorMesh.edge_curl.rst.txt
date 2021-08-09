@@ -1,0 +1,6 @@
+discretize.TensorMesh.edge\_curl
+================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.edge_curl

@@ -1,0 +1,10 @@
+﻿discretize.utils.sub2ind
+========================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: sub2ind
+
+.. minigallery:: discretize.utils.sub2ind
+    :add-heading: Galleries and Tutorials using ``discretize.utils.sub2ind``
+    :heading-level: -

@@ -1,0 +1,10 @@
+﻿discretize.tests.check\_derivative
+==================================
+
+.. currentmodule:: discretize.tests
+
+.. autofunction:: check_derivative
+
+.. minigallery:: discretize.tests.check_derivative
+    :add-heading: Galleries and Tutorials using ``discretize.tests.check_derivative``
+    :heading-level: -

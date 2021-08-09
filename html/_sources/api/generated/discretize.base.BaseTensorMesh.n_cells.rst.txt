@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.n\_cells
+=======================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.n_cells

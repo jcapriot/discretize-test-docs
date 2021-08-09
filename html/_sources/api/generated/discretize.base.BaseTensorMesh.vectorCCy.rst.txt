@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.vectorCCy
+========================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.vectorCCy

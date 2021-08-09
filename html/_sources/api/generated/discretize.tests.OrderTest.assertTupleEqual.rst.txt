@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertTupleEqual
+===========================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertTupleEqual

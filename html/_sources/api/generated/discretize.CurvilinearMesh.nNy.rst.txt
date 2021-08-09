@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.nNy
+==============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.nNy

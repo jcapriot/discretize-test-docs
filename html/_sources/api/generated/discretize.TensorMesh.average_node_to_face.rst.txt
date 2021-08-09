@@ -1,0 +1,6 @@
+discretize.TensorMesh.average\_node\_to\_face
+=============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.average_node_to_face

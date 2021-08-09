@@ -1,0 +1,6 @@
+discretize.TensorMesh.nCx
+=========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.nCx

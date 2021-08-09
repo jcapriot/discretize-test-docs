@@ -1,0 +1,10 @@
+﻿discretize.tests.setup\_mesh
+============================
+
+.. currentmodule:: discretize.tests
+
+.. autofunction:: setup_mesh
+
+.. minigallery:: discretize.tests.setup_mesh
+    :add-heading: Galleries and Tutorials using ``discretize.tests.setup_mesh``
+    :heading-level: -

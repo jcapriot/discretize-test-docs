@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.getTensor
+========================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseTensorMesh.getTensor

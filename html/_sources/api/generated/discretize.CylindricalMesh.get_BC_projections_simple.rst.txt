@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.get\_BC\_projections\_simple
+=======================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.get_BC_projections_simple

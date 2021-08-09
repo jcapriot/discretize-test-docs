@@ -1,0 +1,6 @@
+discretize.TensorMesh.average\_cell\_to\_face
+=============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.average_cell_to_face

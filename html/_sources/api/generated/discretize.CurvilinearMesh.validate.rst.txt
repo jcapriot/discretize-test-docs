@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.validate
+===================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.validate

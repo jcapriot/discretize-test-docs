@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertIsNone
+=======================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertIsNone

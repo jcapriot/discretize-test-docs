@@ -1,0 +1,6 @@
+discretize.TreeMesh.getBCProjWF
+===============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.getBCProjWF

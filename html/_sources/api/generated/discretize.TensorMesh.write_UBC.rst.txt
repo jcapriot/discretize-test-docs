@@ -1,0 +1,6 @@
+discretize.TensorMesh.write\_UBC
+================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.write_UBC

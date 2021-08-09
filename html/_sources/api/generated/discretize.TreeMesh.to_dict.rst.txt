@@ -1,0 +1,6 @@
+discretize.TreeMesh.to\_dict
+============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.to_dict

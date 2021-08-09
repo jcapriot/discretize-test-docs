@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.origin
+===============================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseMesh.origin

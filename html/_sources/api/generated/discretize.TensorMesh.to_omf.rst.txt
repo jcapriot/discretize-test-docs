@@ -1,0 +1,6 @@
+discretize.TensorMesh.to\_omf
+=============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.to_omf

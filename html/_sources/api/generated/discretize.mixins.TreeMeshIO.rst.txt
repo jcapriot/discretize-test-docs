@@ -1,0 +1,33 @@
+﻿discretize.mixins.TreeMeshIO
+============================
+
+.. currentmodule:: discretize.mixins
+
+.. inheritance-diagram:: TreeMeshIO
+    :parts: 1
+
+.. autoclass:: TreeMeshIO
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         TreeMeshIO.readModelUBC
+         TreeMeshIO.readUBC
+         TreeMeshIO.read_UBC
+         TreeMeshIO.read_model_UBC
+         TreeMeshIO.writeModelUBC
+         TreeMeshIO.writeUBC
+         TreeMeshIO.write_UBC
+         TreeMeshIO.write_model_UBC
+      
+  
+
+  
+  
+  
+
+.. minigallery:: discretize.mixins.TreeMeshIO
+    :add-heading: Galleries and Tutorials using ``discretize.mixins.TreeMeshIO``
+    :heading-level: -

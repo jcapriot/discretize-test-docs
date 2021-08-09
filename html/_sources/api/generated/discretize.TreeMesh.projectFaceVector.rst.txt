@@ -1,0 +1,6 @@
+discretize.TreeMesh.projectFaceVector
+=====================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.projectFaceVector

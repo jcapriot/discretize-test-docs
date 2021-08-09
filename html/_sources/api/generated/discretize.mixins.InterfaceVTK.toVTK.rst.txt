@@ -1,0 +1,6 @@
+discretize.mixins.InterfaceVTK.toVTK
+====================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: InterfaceVTK.toVTK

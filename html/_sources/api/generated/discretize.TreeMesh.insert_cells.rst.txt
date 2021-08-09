@@ -1,0 +1,6 @@
+discretize.TreeMesh.insert\_cells
+=================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.insert_cells

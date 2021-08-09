@@ -1,0 +1,6 @@
+discretize.TensorMesh.getFaceInnerProductDeriv
+==============================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.getFaceInnerProductDeriv

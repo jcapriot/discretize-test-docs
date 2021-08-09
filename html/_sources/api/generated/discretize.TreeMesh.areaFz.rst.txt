@@ -1,0 +1,6 @@
+discretize.TreeMesh.areaFz
+==========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.areaFz

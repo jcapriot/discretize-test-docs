@@ -1,0 +1,29 @@
+﻿discretize.mixins.Slicer
+========================
+
+.. currentmodule:: discretize.mixins
+
+.. inheritance-diagram:: Slicer
+    :parts: 1
+
+.. autoclass:: Slicer
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         Slicer.onscroll
+         Slicer.update_xy
+         Slicer.update_xz
+         Slicer.update_zy
+      
+  
+
+  
+  
+  
+
+.. minigallery:: discretize.mixins.Slicer
+    :add-heading: Galleries and Tutorials using ``discretize.mixins.Slicer``
+    :heading-level: -

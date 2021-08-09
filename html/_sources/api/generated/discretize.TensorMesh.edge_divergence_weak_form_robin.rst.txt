@@ -1,0 +1,6 @@
+discretize.TensorMesh.edge\_divergence\_weak\_form\_robin
+=========================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.edge_divergence_weak_form_robin

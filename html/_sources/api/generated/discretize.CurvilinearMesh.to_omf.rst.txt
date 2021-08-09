@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.to\_omf
+==================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.to_omf

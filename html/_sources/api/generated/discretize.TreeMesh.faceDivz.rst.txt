@@ -1,0 +1,6 @@
+discretize.TreeMesh.faceDivz
+============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.faceDivz

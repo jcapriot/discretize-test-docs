@@ -1,0 +1,6 @@
+discretize.TreeMesh.n\_total\_edges\_y
+======================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.n_total_edges_y

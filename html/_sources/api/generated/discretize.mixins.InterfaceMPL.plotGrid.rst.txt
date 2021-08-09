@@ -1,0 +1,6 @@
+discretize.mixins.InterfaceMPL.plotGrid
+=======================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: InterfaceMPL.plotGrid

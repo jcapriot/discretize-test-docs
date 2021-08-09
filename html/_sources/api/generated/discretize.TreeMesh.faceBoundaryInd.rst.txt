@@ -1,0 +1,6 @@
+discretize.TreeMesh.faceBoundaryInd
+===================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.faceBoundaryInd

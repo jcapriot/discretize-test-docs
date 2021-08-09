@@ -1,0 +1,10 @@
+﻿discretize.tests.get\_quadratic
+===============================
+
+.. currentmodule:: discretize.tests
+
+.. autofunction:: get_quadratic
+
+.. minigallery:: discretize.tests.get_quadratic
+    :add-heading: Galleries and Tutorials using ``discretize.tests.get_quadratic``
+    :heading-level: -

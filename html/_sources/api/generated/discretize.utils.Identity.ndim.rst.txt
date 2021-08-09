@@ -1,0 +1,6 @@
+discretize.utils.Identity.ndim
+==============================
+
+.. currentmodule:: discretize.utils
+
+.. autoproperty:: Identity.ndim

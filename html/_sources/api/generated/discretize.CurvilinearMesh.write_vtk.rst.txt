@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.write\_vtk
+=====================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.write_vtk

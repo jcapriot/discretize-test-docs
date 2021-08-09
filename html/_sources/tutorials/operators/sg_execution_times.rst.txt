@@ -1,0 +1,14 @@
+
+:orphan:
+
+.. _sphx_glr_tutorials_operators_sg_execution_times:
+
+Computation times
+=================
+**00:04.249** total execution time for **tutorials_operators** files:
+
++-------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_tutorials_operators_2_differential.py` (``2_differential.py``) | 00:03.424 | 0.0 MB |
++-------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_tutorials_operators_1_averaging.py` (``1_averaging.py``)       | 00:00.825 | 0.0 MB |
++-------------------------------------------------------------------------------+-----------+--------+

@@ -1,0 +1,6 @@
+discretize.operators.InnerProducts.getEdgeInnerProduct
+======================================================
+
+.. currentmodule:: discretize.operators
+
+.. automethod:: InnerProducts.getEdgeInnerProduct

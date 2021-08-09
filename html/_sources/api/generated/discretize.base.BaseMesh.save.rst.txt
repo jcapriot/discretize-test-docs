@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.save
+=============================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseMesh.save

@@ -1,0 +1,6 @@
+discretize.TensorMesh.nodal\_laplacian
+======================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.nodal_laplacian

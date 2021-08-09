@@ -1,0 +1,6 @@
+discretize.TreeMesh.hx
+======================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.hx

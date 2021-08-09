@@ -1,0 +1,10 @@
+﻿discretize.utils.face\_info
+===========================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: face_info
+
+.. minigallery:: discretize.utils.face_info
+    :add-heading: Galleries and Tutorials using ``discretize.utils.face_info``
+    :heading-level: -

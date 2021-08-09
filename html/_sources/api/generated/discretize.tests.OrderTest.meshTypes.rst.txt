@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.meshTypes
+====================================
+
+.. currentmodule:: discretize.tests
+
+.. autoattribute:: OrderTest.meshTypes

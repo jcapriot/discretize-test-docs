@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.shape\_edges\_x
+===================================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseRectangularMesh.shape_edges_x

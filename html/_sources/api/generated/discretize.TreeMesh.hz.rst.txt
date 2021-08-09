@@ -1,0 +1,6 @@
+discretize.TreeMesh.hz
+======================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.hz

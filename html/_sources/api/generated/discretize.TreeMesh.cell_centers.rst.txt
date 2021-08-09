@@ -1,0 +1,6 @@
+discretize.TreeMesh.cell\_centers
+=================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.cell_centers

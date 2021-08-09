@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.axis\_w
+==================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.axis_w

@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertMultiLineEqual
+===============================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertMultiLineEqual

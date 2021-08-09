@@ -1,0 +1,6 @@
+discretize.tree\_mesh.TreeCell.neighbors
+========================================
+
+.. currentmodule:: discretize.tree_mesh
+
+.. autoattribute:: TreeCell.neighbors

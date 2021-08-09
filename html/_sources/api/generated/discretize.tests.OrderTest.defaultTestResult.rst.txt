@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.defaultTestResult
+============================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.defaultTestResult

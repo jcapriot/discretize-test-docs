@@ -1,0 +1,6 @@
+discretize.TreeMesh.permuteF
+============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.permuteF

@@ -1,0 +1,6 @@
+discretize.TensorMesh.is\_inside
+================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.is_inside

@@ -1,0 +1,6 @@
+discretize.TensorMesh.n\_nodes
+==============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.n_nodes

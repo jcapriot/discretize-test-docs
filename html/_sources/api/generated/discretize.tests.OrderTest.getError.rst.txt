@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.getError
+===================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.getError

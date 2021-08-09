@@ -1,0 +1,6 @@
+discretize.TreeMesh.validate
+============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.validate

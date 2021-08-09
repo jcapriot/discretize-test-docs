@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Why discretize? &#8212; discretize 0.7.0 documentation</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-rendered-html.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="shortcut icon" href="../_static/logo-block.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Installing" href="installing.html" />
+    <link rel="prev" title="Getting Started" href="getting_started.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../index.html">
+  <img src="../_static/logo-block.ico" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="getting_started.html">
+  Getting Started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="user_guide.html">
+  User Guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../api/index.html">
+  API Reference
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="theory.html">
+  Theory
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../release/index.html">
+  Release Notes
+ </a>
+</li>
+
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://simpeg.xyz">SimPEG<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="http://slack.simpeg.xyz">Contact<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/simpeg/discretize" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://slack.simpeg.xyz/" rel="noopener" target="_blank" title="Slack">
+            <span><i class="fab fa-slack"></i></span>
+            <label class="sr-only">Slack</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://simpeg.discourse.group/" rel="noopener" target="_blank" title="Discourse">
+            <span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">Discourse</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/c/geoscixyz" rel="noopener" target="_blank" title="Youtube">
+            <span><i class="fab fa-youtube"></i></span>
+            <label class="sr-only">Youtube</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/simpegpy" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Why discretize?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="installing.html">
+   Installing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="additional_resources.html">
+   Additional Resources
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#citing-discretize">
+   Citing discretize
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#authors">
+   Authors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#license">
+   License
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="why-discretize">
+<h1>Why discretize?<a class="headerlink" href="#why-discretize" title="Permalink to this headline">¶</a></h1>
+<p>Inverse problems are common across the geosciences: imaging in geophysics,
+history matching, parameter estimation, and many of these require constrained
+optimization using partial differential equations (PDEs) where the derivative
+of mesh variables are sought. Finite difference, finite element and finite
+volume techniques allow subdivision of continuous differential equations into
+discrete domains. The knowledge and appropriate application of these methods
+is fundamental to simulating physical processes. Many inverse problems in the
+geosciences are solved using stochastic techniques or external finite
+difference based tools (e.g. PEST); these are robust to
+local minima and the programmatic implementation, respectively, however these
+methods do not scale to millions of parameters to be estimated. This sort of
+scale is necessary for solving many of the inverse problems in geophysics and
+increasingly hydrogeology (e.g. electromagnetics, gravity, and fluid flow
+problems).</p>
+<p>In the context of the inverse problem, when the physical properties, the
+domain, and the boundary conditions are not necessarily known, the simplicity
+and efficiency in mesh generation are important criteria. Complex mesh
+geometries, such as body fitted grids, commonly used when the domain is
+explicitly given, are less appropriate. Additionally, when considering the
+inverse problem, it is important that operators and their derivatives are
+accessible to interrogation and extension. The goal of this work is to
+provide a high level background to finite volume techniques abstracted across
+four mesh types:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>tensor product mesh  <a class="reference internal" href="../api/generated/discretize.TensorMesh.html#discretize.TensorMesh" title="discretize.TensorMesh"><code class="xref py py-class docutils literal notranslate"><span class="pre">discretize.TensorMesh</span></code></a></p></li>
+<li><p>cylindrically symmetric mesh <code class="xref py py-class docutils literal notranslate"><span class="pre">discretize.CylMesh</span></code></p></li>
+<li><p>curvilinear mesh <a class="reference internal" href="../api/generated/discretize.CurvilinearMesh.html#discretize.CurvilinearMesh" title="discretize.CurvilinearMesh"><code class="xref py py-class docutils literal notranslate"><span class="pre">discretize.CurvilinearMesh</span></code></a></p></li>
+<li><p>octree and quadtree meshes <a class="reference internal" href="../api/generated/discretize.TreeMesh.html#discretize.TreeMesh" title="discretize.TreeMesh"><code class="xref py py-class docutils literal notranslate"><span class="pre">discretize.TreeMesh</span></code></a></p></li>
+</ol>
+</div></blockquote>
+<p><code class="code docutils literal notranslate"><span class="pre">discretize</span></code> contributes an overview of finite volume techniques in the
+context of geoscience inverse problems, which are treated in a consistent way
+across various mesh types, highlighting similarities and differences.</p>
+<div class="section" id="citing-discretize">
+<h2>Citing discretize<a class="headerlink" href="#citing-discretize" title="Permalink to this headline">¶</a></h2>
+<p>There is a <a class="reference external" href="http://dx.doi.org/10.1016/j.cageo.2015.09.015">paper about discretize</a> as it is used in SimPEG,
+if you use this code, please help our scientific visibility by citing our work!</p>
+<blockquote>
+<div><p>Cockett, R., Kang, S., Heagy, L. J., Pidlisecky, A., &amp; Oldenburg, D. W. (2015). SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications. Computers &amp; Geosciences.</p>
+</div></blockquote>
+<p>BibTex:</p>
+<div class="highlight-Latex notranslate"><div class="highlight"><pre><span></span>@article<span class="nb">{</span>Cockett2015,
+  title=<span class="nb">{</span>SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications<span class="nb">}</span>,
+  author=<span class="nb">{</span>Cockett, Rowan and Kang, Seogi and Heagy, Lindsey J and Pidlisecky, Adam and Oldenburg, Douglas W<span class="nb">}</span>,
+  journal=<span class="nb">{</span>Computers <span class="k">\&amp;</span> Geosciences<span class="nb">}</span>,
+  year=<span class="nb">{</span>2015<span class="nb">}</span>,
+  publisher=<span class="nb">{</span>Elsevier<span class="nb">}</span>
+<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="authors">
+<h2>Authors<a class="headerlink" href="#authors" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Rowan Cockett, (<a class="reference external" href="https://github.com/rowanc1/">&#64;rowanc1</a>)</p></li>
+<li><p>Lindsey Heagy, (<a class="reference external" href="https://github.com/lheagy/">&#64;lheagy</a>)</p></li>
+<li><p>Seogi Kang, (<a class="reference external" href="https://github.com/sgkang/">&#64;sgkang</a>)</p></li>
+<li><p>Brendan Smithyman, (<a class="reference external" href="https://github.com/bsmithyman/">&#64;bsmithyman</a>)</p></li>
+<li><p>Gudni Rosenkjaer, (<a class="reference external" href="https://github.com/grosenkj/">&#64;grosenkj</a>)</p></li>
+<li><p>Dom Fournier, (<a class="reference external" href="https://github.com/fourndo/">&#64;fourndo</a>)</p></li>
+<li><p>Dave Marchant, (<a class="reference external" href="https://github.com/dwfmarchant/">&#64;dwfmarchant</a>)</p></li>
+<li><p>Lars Ruthotto, (<a class="reference external" href="https://github.com/lruthotto/">&#64;lruthotto</a>)</p></li>
+<li><p>Mike Wathen, (<a class="reference external" href="https://github.com/wathenmp/">&#64;wathenmp</a>)</p></li>
+<li><p>Luz Angelica Caudillo-Mata, (<a class="reference external" href="https://github.com/lacmajedrez/">&#64;lacmajedrez</a>)</p></li>
+<li><p>Eldad Haber, (<a class="reference external" href="https://github.com/eldadhaber/">&#64;eldadhaber</a>)</p></li>
+<li><p>Doug Oldenburg, (<a class="reference external" href="https://github.com/dougoldenburg/">&#64;dougoldenburg</a>)</p></li>
+<li><p>Devin Cowan, (<a class="reference external" href="https://github.com/dccowan/">&#64;dccowan</a>)</p></li>
+<li><p>Adam Pidlisecky, (<a class="reference external" href="https://github.com/aPid1/">&#64;aPid1</a>)</p></li>
+<li><p>Dieter Werthmüller, (<a class="reference external" href="https://github.com/prisae/">&#64;prisae</a>)</p></li>
+<li><p>Bane Sullivan, (<a class="reference external" href="https://github.com/banesullivan">&#64;banesullivan</a>)</p></li>
+<li><p>Joseph Capriotti, (<a class="reference external" href="https://github.com/jcapriot/">&#64;jcapriot</a>)</p></li>
+</ul>
+</div>
+<div class="section" id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<p>The MIT License (MIT)</p>
+<p>Copyright (c) 2013-2017 SimPEG Developers</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the “Software”), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+</div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='left-prev' id="prev-link" href="getting_started.html" title="previous page">Getting Started</a>
+    <a class='right-next' id="next-link" href="installing.html" title="next page">Installing</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2013 - 2021, SimPEG Developers, http://simpeg.xyz.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.1.2.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

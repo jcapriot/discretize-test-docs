@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertDictContainsSubset
+===================================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertDictContainsSubset

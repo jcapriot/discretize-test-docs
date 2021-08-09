@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.name
+===============================
+
+.. currentmodule:: discretize.tests
+
+.. autoattribute:: OrderTest.name

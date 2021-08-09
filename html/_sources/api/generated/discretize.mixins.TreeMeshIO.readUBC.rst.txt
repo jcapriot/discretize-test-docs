@@ -1,0 +1,6 @@
+discretize.mixins.TreeMeshIO.readUBC
+====================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: TreeMeshIO.readUBC

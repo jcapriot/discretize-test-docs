@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.reference\_is\_rotated
+=====================================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.reference_is_rotated

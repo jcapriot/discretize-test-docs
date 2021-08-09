@@ -1,0 +1,6 @@
+discretize.operators.DiffOperators.boundary\_face\_scalar\_integral
+===================================================================
+
+.. currentmodule:: discretize.operators
+
+.. autoproperty:: DiffOperators.boundary_face_scalar_integral

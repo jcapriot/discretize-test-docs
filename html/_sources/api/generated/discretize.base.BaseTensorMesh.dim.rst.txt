@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.dim
+==================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.dim

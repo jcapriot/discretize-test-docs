@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.cell\_centers\_y
+===============================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.cell_centers_y

@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.projectEdgeVector
+==========================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseMesh.projectEdgeVector

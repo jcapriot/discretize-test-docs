@@ -1,0 +1,6 @@
+discretize.TreeMesh.vectorCCy
+=============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.vectorCCy

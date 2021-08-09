@@ -1,0 +1,6 @@
+discretize.utils.Zero.\_\_getitem\_\_
+=====================================
+
+.. currentmodule:: discretize.utils
+
+.. automethod:: Zero.__getitem__

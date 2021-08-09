@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.face\_normals
+======================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseMesh.face_normals

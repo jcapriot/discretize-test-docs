@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.equals
+=====================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseTensorMesh.equals

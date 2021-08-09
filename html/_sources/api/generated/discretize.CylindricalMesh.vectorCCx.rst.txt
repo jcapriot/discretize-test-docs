@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.vectorCCx
+====================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.vectorCCx

@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.n\_edges\_per\_direction
+===================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.n_edges_per_direction

@@ -1,0 +1,6 @@
+discretize.TreeMesh.deserialize
+===============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.deserialize

@@ -1,0 +1,6 @@
+discretize.TensorMesh.get\_face\_inner\_product\_deriv
+======================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.get_face_inner_product_deriv

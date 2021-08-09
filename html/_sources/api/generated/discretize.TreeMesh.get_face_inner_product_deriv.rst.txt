@@ -1,0 +1,6 @@
+discretize.TreeMesh.get\_face\_inner\_product\_deriv
+====================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.get_face_inner_product_deriv

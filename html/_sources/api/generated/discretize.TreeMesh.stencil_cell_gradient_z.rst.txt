@@ -1,0 +1,6 @@
+discretize.TreeMesh.stencil\_cell\_gradient\_z
+==============================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.stencil_cell_gradient_z

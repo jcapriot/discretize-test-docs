@@ -1,0 +1,10 @@
+﻿discretize.utils.volume\_average
+================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: volume_average
+
+.. minigallery:: discretize.utils.volume_average
+    :add-heading: Galleries and Tutorials using ``discretize.utils.volume_average``
+    :heading-level: -

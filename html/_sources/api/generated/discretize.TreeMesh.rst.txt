@@ -1,0 +1,278 @@
+﻿discretize.TreeMesh
+===================
+
+.. currentmodule:: discretize
+
+.. inheritance-diagram:: TreeMesh
+    :parts: 1
+
+.. autoclass:: TreeMesh
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         TreeMesh.__getitem__
+         TreeMesh.__len__
+         TreeMesh.average_cell_to_total_face_x
+         TreeMesh.average_cell_to_total_face_y
+         TreeMesh.average_cell_to_total_face_z
+         TreeMesh.cell_gradient_weak_form_robin
+         TreeMesh.cell_levels_by_index
+         TreeMesh.copy
+         TreeMesh.deserialize
+         TreeMesh.edge_divergence_weak_form_robin
+         TreeMesh.equals
+         TreeMesh.finalize
+         TreeMesh.from_omf
+         TreeMesh.getBCProjWF
+         TreeMesh.getBCProjWF_simple
+         TreeMesh.getEdgeInnerProduct
+         TreeMesh.getEdgeInnerProductDeriv
+         TreeMesh.getFaceInnerProduct
+         TreeMesh.getFaceInnerProductDeriv
+         TreeMesh.getInterpolationMat
+         TreeMesh.getTensor
+         TreeMesh.get_BC_projections
+         TreeMesh.get_BC_projections_simple
+         TreeMesh.get_boundary_cells
+         TreeMesh.get_cells_along_line
+         TreeMesh.get_edge_inner_product
+         TreeMesh.get_edge_inner_product_deriv
+         TreeMesh.get_face_inner_product
+         TreeMesh.get_face_inner_product_deriv
+         TreeMesh.get_interpolation_matrix
+         TreeMesh.get_overlapping_cells
+         TreeMesh.get_tensor
+         TreeMesh.insert_cells
+         TreeMesh.isInside
+         TreeMesh.is_inside
+         TreeMesh.number
+         TreeMesh.plotGrid
+         TreeMesh.plotImage
+         TreeMesh.plotSlice
+         TreeMesh.plot_3d_slicer
+         TreeMesh.plot_grid
+         TreeMesh.plot_image
+         TreeMesh.plot_slice
+         TreeMesh.point2index
+         TreeMesh.projectEdgeVector
+         TreeMesh.projectFaceVector
+         TreeMesh.project_edge_vector
+         TreeMesh.project_face_vector
+         TreeMesh.readModelUBC
+         TreeMesh.readUBC
+         TreeMesh.read_UBC
+         TreeMesh.read_model_UBC
+         TreeMesh.refine
+         TreeMesh.refine_ball
+         TreeMesh.refine_box
+         TreeMesh.save
+         TreeMesh.serialize
+         TreeMesh.setCellGradBC
+         TreeMesh.set_cell_gradient_BC
+         TreeMesh.toVTK
+         TreeMesh.to_dict
+         TreeMesh.to_omf
+         TreeMesh.to_vtk
+         TreeMesh.validate
+         TreeMesh.writeModelUBC
+         TreeMesh.writeUBC
+         TreeMesh.writeVTK
+         TreeMesh.write_UBC
+         TreeMesh.write_model_UBC
+         TreeMesh.write_vtk
+      
+         TreeMesh.__len__
+         TreeMesh.__getitem__
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         TreeMesh.area
+         TreeMesh.areaFx
+         TreeMesh.areaFy
+         TreeMesh.areaFz
+         TreeMesh.average_cell_to_edge
+         TreeMesh.average_cell_to_face
+         TreeMesh.average_cell_to_face_x
+         TreeMesh.average_cell_to_face_y
+         TreeMesh.average_cell_to_face_z
+         TreeMesh.average_cell_vector_to_face
+         TreeMesh.average_edge_to_cell
+         TreeMesh.average_edge_to_cell_vector
+         TreeMesh.average_edge_to_face_vector
+         TreeMesh.average_edge_x_to_cell
+         TreeMesh.average_edge_y_to_cell
+         TreeMesh.average_edge_z_to_cell
+         TreeMesh.average_face_to_cell
+         TreeMesh.average_face_to_cell_vector
+         TreeMesh.average_face_x_to_cell
+         TreeMesh.average_face_y_to_cell
+         TreeMesh.average_face_z_to_cell
+         TreeMesh.average_node_to_cell
+         TreeMesh.average_node_to_edge
+         TreeMesh.average_node_to_edge_x
+         TreeMesh.average_node_to_edge_y
+         TreeMesh.average_node_to_edge_z
+         TreeMesh.average_node_to_face
+         TreeMesh.average_node_to_face_x
+         TreeMesh.average_node_to_face_y
+         TreeMesh.average_node_to_face_z
+         TreeMesh.axis_u
+         TreeMesh.axis_v
+         TreeMesh.axis_w
+         TreeMesh.boundary_edge_vector_integral
+         TreeMesh.boundary_edges
+         TreeMesh.boundary_face_outward_normals
+         TreeMesh.boundary_face_scalar_integral
+         TreeMesh.boundary_faces
+         TreeMesh.boundary_node_vector_integral
+         TreeMesh.boundary_nodes
+         TreeMesh.cellBoundaryInd
+         TreeMesh.cellGrad
+         TreeMesh.cellGradBC
+         TreeMesh.cellGradStencil
+         TreeMesh.cellGradx
+         TreeMesh.cellGrady
+         TreeMesh.cellGradz
+         TreeMesh.cell_boundary_indices
+         TreeMesh.cell_centers
+         TreeMesh.cell_centers_x
+         TreeMesh.cell_centers_y
+         TreeMesh.cell_centers_z
+         TreeMesh.cell_gradient
+         TreeMesh.cell_gradient_BC
+         TreeMesh.cell_gradient_x
+         TreeMesh.cell_gradient_y
+         TreeMesh.cell_gradient_z
+         TreeMesh.cell_nodes
+         TreeMesh.cell_state
+         TreeMesh.cell_volumes
+         TreeMesh.dim
+         TreeMesh.edge
+         TreeMesh.edgeCurl
+         TreeMesh.edgeEx
+         TreeMesh.edgeEy
+         TreeMesh.edgeEz
+         TreeMesh.edge_curl
+         TreeMesh.edge_lengths
+         TreeMesh.edge_nodes
+         TreeMesh.edge_tangents
+         TreeMesh.edges
+         TreeMesh.edges_x
+         TreeMesh.edges_y
+         TreeMesh.edges_z
+         TreeMesh.faceBoundaryInd
+         TreeMesh.faceDiv
+         TreeMesh.faceDivx
+         TreeMesh.faceDivy
+         TreeMesh.faceDivz
+         TreeMesh.face_areas
+         TreeMesh.face_boundary_indices
+         TreeMesh.face_divergence
+         TreeMesh.face_normals
+         TreeMesh.face_x_divergence
+         TreeMesh.face_y_divergence
+         TreeMesh.face_z_divergence
+         TreeMesh.faces
+         TreeMesh.faces_x
+         TreeMesh.faces_y
+         TreeMesh.faces_z
+         TreeMesh.fill
+         TreeMesh.finalized
+         TreeMesh.h
+         TreeMesh.h_gridded
+         TreeMesh.hanging_edges_x
+         TreeMesh.hanging_edges_y
+         TreeMesh.hanging_edges_z
+         TreeMesh.hanging_faces_x
+         TreeMesh.hanging_faces_y
+         TreeMesh.hanging_faces_z
+         TreeMesh.hanging_nodes
+         TreeMesh.hx
+         TreeMesh.hy
+         TreeMesh.hz
+         TreeMesh.maxLevel
+         TreeMesh.max_level
+         TreeMesh.max_used_level
+         TreeMesh.n_cells
+         TreeMesh.n_edges
+         TreeMesh.n_edges_per_direction
+         TreeMesh.n_edges_x
+         TreeMesh.n_edges_y
+         TreeMesh.n_edges_z
+         TreeMesh.n_faces
+         TreeMesh.n_faces_per_direction
+         TreeMesh.n_faces_x
+         TreeMesh.n_faces_y
+         TreeMesh.n_faces_z
+         TreeMesh.n_hanging_edges
+         TreeMesh.n_hanging_edges_x
+         TreeMesh.n_hanging_edges_y
+         TreeMesh.n_hanging_edges_z
+         TreeMesh.n_hanging_faces
+         TreeMesh.n_hanging_faces_x
+         TreeMesh.n_hanging_faces_y
+         TreeMesh.n_hanging_faces_z
+         TreeMesh.n_hanging_nodes
+         TreeMesh.n_nodes
+         TreeMesh.n_total_edges
+         TreeMesh.n_total_edges_x
+         TreeMesh.n_total_edges_y
+         TreeMesh.n_total_edges_z
+         TreeMesh.n_total_faces
+         TreeMesh.n_total_faces_x
+         TreeMesh.n_total_faces_y
+         TreeMesh.n_total_faces_z
+         TreeMesh.n_total_nodes
+         TreeMesh.nodalGrad
+         TreeMesh.nodalLaplacian
+         TreeMesh.nodal_gradient
+         TreeMesh.nodal_laplacian
+         TreeMesh.nodes
+         TreeMesh.nodes_x
+         TreeMesh.nodes_y
+         TreeMesh.nodes_z
+         TreeMesh.normals
+         TreeMesh.orientation
+         TreeMesh.origin
+         TreeMesh.permuteCC
+         TreeMesh.permuteE
+         TreeMesh.permuteF
+         TreeMesh.permute_cells
+         TreeMesh.permute_edges
+         TreeMesh.permute_faces
+         TreeMesh.project_edge_to_boundary_edge
+         TreeMesh.project_face_to_boundary_face
+         TreeMesh.project_node_to_boundary_node
+         TreeMesh.reference_is_rotated
+         TreeMesh.reference_system
+         TreeMesh.rotation_matrix
+         TreeMesh.shape_cells
+         TreeMesh.stencil_cell_gradient
+         TreeMesh.stencil_cell_gradient_x
+         TreeMesh.stencil_cell_gradient_y
+         TreeMesh.stencil_cell_gradient_z
+         TreeMesh.tangents
+         TreeMesh.vectorCCx
+         TreeMesh.vectorCCy
+         TreeMesh.vectorCCz
+         TreeMesh.vectorNx
+         TreeMesh.vectorNy
+         TreeMesh.vectorNz
+         TreeMesh.vntE
+         TreeMesh.vntF
+         TreeMesh.vol
+         TreeMesh.x0
+  
+  
+
+.. minigallery:: discretize.TreeMesh
+    :add-heading: Galleries and Tutorials using ``discretize.TreeMesh``
+    :heading-level: -

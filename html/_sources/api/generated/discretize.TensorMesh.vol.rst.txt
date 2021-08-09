@@ -1,0 +1,6 @@
+discretize.TensorMesh.vol
+=========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.vol

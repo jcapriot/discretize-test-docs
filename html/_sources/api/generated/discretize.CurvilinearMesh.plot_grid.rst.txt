@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.plot\_grid
+=====================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.plot_grid

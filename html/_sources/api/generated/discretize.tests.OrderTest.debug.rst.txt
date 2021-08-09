@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.debug
+================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.debug

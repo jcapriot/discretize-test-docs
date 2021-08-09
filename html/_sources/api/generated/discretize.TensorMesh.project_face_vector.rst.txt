@@ -1,0 +1,6 @@
+discretize.TensorMesh.project\_face\_vector
+===========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.project_face_vector

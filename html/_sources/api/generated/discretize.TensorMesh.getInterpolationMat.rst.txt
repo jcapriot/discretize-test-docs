@@ -1,0 +1,6 @@
+discretize.TensorMesh.getInterpolationMat
+=========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.getInterpolationMat

@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.n\_edges\_y
+==========================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.n_edges_y

@@ -1,0 +1,6 @@
+discretize.TreeMesh.copy
+========================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.copy

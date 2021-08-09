@@ -1,0 +1,36 @@
+﻿discretize.utils.Zero
+=====================
+
+.. currentmodule:: discretize.utils
+
+.. inheritance-diagram:: Zero
+    :parts: 1
+
+.. autoclass:: Zero
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         Zero.__getitem__
+         Zero.__mul__
+         Zero.transpose
+      
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         Zero.T
+         Zero.ndim
+         Zero.shape
+  
+  
+
+.. minigallery:: discretize.utils.Zero
+    :add-heading: Galleries and Tutorials using ``discretize.utils.Zero``
+    :heading-level: -

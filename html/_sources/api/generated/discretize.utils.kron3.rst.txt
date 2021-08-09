@@ -1,0 +1,10 @@
+﻿discretize.utils.kron3
+======================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: kron3
+
+.. minigallery:: discretize.utils.kron3
+    :add-heading: Galleries and Tutorials using ``discretize.utils.kron3``
+    :heading-level: -

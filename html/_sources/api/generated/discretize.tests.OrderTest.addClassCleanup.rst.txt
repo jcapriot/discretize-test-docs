@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.addClassCleanup
+==========================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.addClassCleanup

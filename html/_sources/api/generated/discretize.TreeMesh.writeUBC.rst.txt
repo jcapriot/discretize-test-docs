@@ -1,0 +1,6 @@
+discretize.TreeMesh.writeUBC
+============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.writeUBC

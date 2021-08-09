@@ -1,0 +1,6 @@
+discretize.TreeMesh.plot\_image
+===============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.plot_image

@@ -1,0 +1,10 @@
+﻿discretize.utils.av
+===================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: av
+
+.. minigallery:: discretize.utils.av
+    :add-heading: Galleries and Tutorials using ``discretize.utils.av``
+    :heading-level: -

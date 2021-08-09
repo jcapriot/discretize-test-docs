@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.longMessage
+======================================
+
+.. currentmodule:: discretize.tests
+
+.. autoattribute:: OrderTest.longMessage

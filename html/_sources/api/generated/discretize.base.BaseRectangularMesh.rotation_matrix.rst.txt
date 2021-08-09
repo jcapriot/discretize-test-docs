@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.rotation\_matrix
+====================================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseRectangularMesh.rotation_matrix

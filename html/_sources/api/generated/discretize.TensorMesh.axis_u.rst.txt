@@ -1,0 +1,6 @@
+discretize.TensorMesh.axis\_u
+=============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.axis_u

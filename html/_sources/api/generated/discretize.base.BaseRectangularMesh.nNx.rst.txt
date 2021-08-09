@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.nNx
+=======================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseRectangularMesh.nNx

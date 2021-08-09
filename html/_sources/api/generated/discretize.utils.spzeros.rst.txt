@@ -1,0 +1,10 @@
+﻿discretize.utils.spzeros
+========================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: spzeros
+
+.. minigallery:: discretize.utils.spzeros
+    :add-heading: Galleries and Tutorials using ``discretize.utils.spzeros``
+    :heading-level: -

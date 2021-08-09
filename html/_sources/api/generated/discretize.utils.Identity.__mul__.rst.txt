@@ -1,0 +1,6 @@
+discretize.utils.Identity.\_\_mul\_\_
+=====================================
+
+.. currentmodule:: discretize.utils
+
+.. automethod:: Identity.__mul__

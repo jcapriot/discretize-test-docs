@@ -1,0 +1,6 @@
+discretize.TreeMesh.max\_level
+==============================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.max_level

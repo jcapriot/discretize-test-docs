@@ -1,0 +1,6 @@
+discretize.tree\_mesh.TreeCell.edges
+====================================
+
+.. currentmodule:: discretize.tree_mesh
+
+.. autoattribute:: TreeCell.edges

@@ -1,0 +1,10 @@
+﻿discretize.utils.ndgrid
+=======================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: ndgrid
+
+.. minigallery:: discretize.utils.ndgrid
+    :add-heading: Galleries and Tutorials using ``discretize.utils.ndgrid``
+    :heading-level: -

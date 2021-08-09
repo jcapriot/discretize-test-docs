@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.projectEdgeVector
+================================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseTensorMesh.projectEdgeVector

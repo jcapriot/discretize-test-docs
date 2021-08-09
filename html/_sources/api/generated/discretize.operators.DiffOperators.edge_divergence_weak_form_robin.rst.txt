@@ -1,0 +1,6 @@
+discretize.operators.DiffOperators.edge\_divergence\_weak\_form\_robin
+======================================================================
+
+.. currentmodule:: discretize.operators
+
+.. automethod:: DiffOperators.edge_divergence_weak_form_robin

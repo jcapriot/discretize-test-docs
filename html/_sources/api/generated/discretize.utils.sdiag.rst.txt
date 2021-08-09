@@ -1,0 +1,10 @@
+﻿discretize.utils.sdiag
+======================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: sdiag
+
+.. minigallery:: discretize.utils.sdiag
+    :add-heading: Galleries and Tutorials using ``discretize.utils.sdiag``
+    :heading-level: -

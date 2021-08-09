@@ -1,0 +1,6 @@
+discretize.TreeMesh.shape\_cells
+================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.shape_cells

@@ -1,0 +1,6 @@
+discretize.TreeMesh.axis\_u
+===========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.axis_u

@@ -1,0 +1,10 @@
+﻿discretize.tests.rosenbrock
+===========================
+
+.. currentmodule:: discretize.tests
+
+.. autofunction:: rosenbrock
+
+.. minigallery:: discretize.tests.rosenbrock
+    :add-heading: Galleries and Tutorials using ``discretize.tests.rosenbrock``
+    :heading-level: -

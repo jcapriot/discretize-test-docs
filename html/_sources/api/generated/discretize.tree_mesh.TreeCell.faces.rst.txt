@@ -1,0 +1,6 @@
+discretize.tree\_mesh.TreeCell.faces
+====================================
+
+.. currentmodule:: discretize.tree_mesh
+
+.. autoattribute:: TreeCell.faces

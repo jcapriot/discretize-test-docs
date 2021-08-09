@@ -1,0 +1,6 @@
+discretize.TensorMesh.nodalGrad
+===============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.nodalGrad

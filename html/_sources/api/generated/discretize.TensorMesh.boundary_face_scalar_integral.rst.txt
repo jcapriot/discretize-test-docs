@@ -1,0 +1,6 @@
+discretize.TensorMesh.boundary\_face\_scalar\_integral
+======================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.boundary_face_scalar_integral

@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.faces
+====================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.faces

@@ -1,0 +1,6 @@
+discretize.mixins.InterfaceMPL.plot\_image
+==========================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: InterfaceMPL.plot_image

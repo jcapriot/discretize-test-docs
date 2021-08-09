@@ -1,0 +1,6 @@
+discretize.TensorMesh.shape\_cells
+==================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.shape_cells

@@ -1,0 +1,6 @@
+discretize.mixins.InterfaceOMF.to\_omf
+======================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: InterfaceOMF.to_omf

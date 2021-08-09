@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.deserialize
+======================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.deserialize

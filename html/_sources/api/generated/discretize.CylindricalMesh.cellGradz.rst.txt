@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.cellGradz
+====================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.cellGradz

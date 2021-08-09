@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.cell\_gradient\_z
+============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.cell_gradient_z

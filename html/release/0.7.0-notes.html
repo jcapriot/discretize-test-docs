@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>discretize 0.7.0 Release Notes &#8212; discretize 0.7.0 documentation</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-rendered-html.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "document", "processHtmlClass": "math|output_area"}}</script>
+    <link rel="shortcut icon" href="../_static/logo-block.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="discretize 0.6.3 Release Notes" href="0.6.3-notes.html" />
+    <link rel="prev" title="Release Notes" href="index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../index.html">
+  <img src="../_static/logo-block.ico" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../content/getting_started.html">
+  Getting Started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../content/user_guide.html">
+  User Guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../api/index.html">
+  API Reference
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../content/theory.html">
+  Theory
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="index.html">
+  Release Notes
+ </a>
+</li>
+
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://simpeg.xyz">SimPEG<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="http://slack.simpeg.xyz">Contact<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/simpeg/discretize" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://slack.simpeg.xyz/" rel="noopener" target="_blank" title="Slack">
+            <span><i class="fab fa-slack"></i></span>
+            <label class="sr-only">Slack</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://simpeg.discourse.group/" rel="noopener" target="_blank" title="Discourse">
+            <span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">Discourse</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/c/geoscixyz" rel="noopener" target="_blank" title="Youtube">
+            <span><i class="fab fa-youtube"></i></span>
+            <label class="sr-only">Youtube</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/simpegpy" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   0.7.0
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.6.3-notes.html">
+   0.6.3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.6.2-notes.html">
+   0.6.2
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.6.1-notes.html">
+   0.6.1
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.6.0-notes.html">
+   0.6.0
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.5.1-notes.html">
+   0.5.1
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.5.0-notes.html">
+   0.5.0
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.4.15-notes.html">
+   0.4.15
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.4.14-notes.html">
+   0.4.14
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.4.13-notes.html">
+   0.4.13
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.4.12-notes.html">
+   0.4.12
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#removal-of-properties">
+   Removal of
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     properties
+    </span>
+   </code>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#boundary-conditions">
+   Boundary Conditions
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#future-work">
+     Future Work
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#contributors">
+     Contributors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pull-requests">
+     Pull requests
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="discretize-0-7-0-release-notes">
+<span id="notes"></span><h1><code class="docutils literal notranslate"><span class="pre">discretize</span></code> 0.7.0 Release Notes<a class="headerlink" href="#discretize-0-7-0-release-notes" title="Permalink to this headline">¶</a></h1>
+<p>This Minor release has several new features, including support for boundary conditions,
+quiver vector plotting for <a class="reference internal" href="../api/generated/discretize.TreeMesh.plot_slice.html#discretize.TreeMesh.plot_slice" title="discretize.TreeMesh.plot_slice"><code class="xref py py-func docutils literal notranslate"><span class="pre">TreeMesh.plot_slice()</span></code></a>, and a rather large change in
+removing the <code class="docutils literal notranslate"><span class="pre">properties</span></code> requirement from <code class="docutils literal notranslate"><span class="pre">discretize</span></code>.</p>
+<div class="section" id="removal-of-properties">
+<h2>Removal of <code class="docutils literal notranslate"><span class="pre">properties</span></code><a class="headerlink" href="#removal-of-properties" title="Permalink to this headline">¶</a></h2>
+<p>Starting with the largest change, we have made the decision to remove the properties
+backend of <cite>discretize</cite>. Our main motivation for this was to give ourselves more control
+over the documentation of classes. Our goal was to recreate the functionality without
+any adverse effects to our users, and have taken many steps to hopefully address any
+possible issues with the conversion. That being said, please raise an issue on the
+github page if you run into any unexpected issues.</p>
+<p>The next step here is to finalize the documentation..</p>
+</div>
+<div class="section" id="boundary-conditions">
+<h2>Boundary Conditions<a class="headerlink" href="#boundary-conditions" title="Permalink to this headline">¶</a></h2>
+<p>We have added an improved support for implementing boundary conditions for the finite
+volume formulation that underlies <code class="docutils literal notranslate"><span class="pre">discretize</span></code> on <a class="reference internal" href="../api/generated/discretize.TreeMesh.html#discretize.TreeMesh" title="discretize.TreeMesh"><code class="xref py py-class docutils literal notranslate"><span class="pre">TreeMesh</span></code></a>, <a class="reference internal" href="../api/generated/discretize.TensorMesh.html#discretize.TensorMesh" title="discretize.TensorMesh"><code class="xref py py-class docutils literal notranslate"><span class="pre">TensorMesh</span></code></a>
+, and <a class="reference internal" href="../api/generated/discretize.CurvilinearMesh.html#discretize.CurvilinearMesh" title="discretize.CurvilinearMesh"><code class="xref py py-class docutils literal notranslate"><span class="pre">CurvilinearMesh</span></code></a>.</p>
+<p>In general, <code class="docutils literal notranslate"><span class="pre">discretize</span></code> often makes use of the following two identities for the weak
+form of the finite volume:</p>
+<div class="math notranslate nohighlight">
+\[\int_\Omega \nabla u \cdot \vec{v} dV = -\int_\Omega u \nabla \cdot \vec{v} dV
++ \int_{\partial\Omega} u \vec{v}\cdot \hat{n} dA\]</div>
+<div class="math notranslate nohighlight">
+\[\int_\Omega (\nabla \times \vec{w}) \cdot \vec{v} dV = \int_\Omega \vec{w} \cdot (\nabla \times \vec{v}) dV
+- \int_{\partial\omega} (\vec{w} \times \hat{n}) \cdot \vec{v} dA\]</div>
+<p>Previously we focused on approximating the volume integrals in the above equations,
+however to implement boundary conditions, we use the boundary face integrals!</p>
+<p>As part of this, meshes now have a few new properties:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">boundary_faces</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">boundary_face_outward_normals</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">boundary_edges</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">boundary_nodes</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">average_node_to_face</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">average_edge_to_face_vector</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">project_edge_to_boundary_edge</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">project_face_to_boundary_face</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">project_node_to_boundary_node</span></code></p></li>
+</ul>
+<p>Together these are used in a few items that are correspond to the mass matrices,
+<a class="reference internal" href="../api/generated/discretize.operators.InnerProducts.get_edge_inner_product.html#discretize.operators.InnerProducts.get_edge_inner_product" title="discretize.operators.InnerProducts.get_edge_inner_product"><code class="xref py py-func docutils literal notranslate"><span class="pre">operators.InnerProducts.get_edge_inner_product()</span></code></a> and
+<a class="reference internal" href="../api/generated/discretize.operators.InnerProducts.get_face_inner_product.html#discretize.operators.InnerProducts.get_face_inner_product" title="discretize.operators.InnerProducts.get_face_inner_product"><code class="xref py py-func docutils literal notranslate"><span class="pre">operators.InnerProducts.get_face_inner_product()</span></code></a>. These relate to the item that
+they are operating on, and return the necessary matrix to integrate that quantity on
+the default boundaries of the meshes.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">boundary_face_scalar_integral</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">boundary_node_vector_integral</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">boundary_edge_vector_integral</span></code></p></li>
+</ul>
+<p>You can investigate the source code of these functions to see how they are built if you
+need to design your own customized boundary.</p>
+<p>All together we have also implemented two helper operators that can be used to reproduce
+common types of boundary conditions for a few PDE’s. These are based on Robin type
+conditions that can flexibly support multiple types of boundary conditions depending on
+the discrete value’s locations.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../api/generated/discretize.operators.DiffOperators.cell_gradient_weak_form_robin.html#discretize.operators.DiffOperators.cell_gradient_weak_form_robin" title="discretize.operators.DiffOperators.cell_gradient_weak_form_robin"><code class="xref py py-func docutils literal notranslate"><span class="pre">operators.DiffOperators.cell_gradient_weak_form_robin()</span></code></a></p></li>
+<li><p><a class="reference internal" href="../api/generated/discretize.operators.DiffOperators.edge_divergence_weak_form_robin.html#discretize.operators.DiffOperators.edge_divergence_weak_form_robin" title="discretize.operators.DiffOperators.edge_divergence_weak_form_robin"><code class="xref py py-func docutils literal notranslate"><span class="pre">operators.DiffOperators.edge_divergence_weak_form_robin()</span></code></a></p></li>
+</ul>
+<div class="section" id="future-work">
+<h3>Future Work<a class="headerlink" href="#future-work" title="Permalink to this headline">¶</a></h3>
+<p>With the removal of <code class="docutils literal notranslate"><span class="pre">properties</span></code> we will be updating the documentation to be more
+explicit, but in the meantime this will make some items look less clear.
+We will also be pushing out some tutorials on how to use the boundary conditions
+to solve the boundary value PDE’s. In the meantime though, you can look at the boundary
+condition test codes where we form a few PDE’s for convergence tests.</p>
+</div>
+<div class="section" id="contributors">
+<h3>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>&#64;jcapriot</p></li>
+</ul>
+<p>With reviews from:</p>
+<ul class="simple">
+<li><p>&#64;prisae</p></li>
+<li><p>&#64;domfournier/&#64;fourndo</p></li>
+<li><p>&#64;lheagy</p></li>
+</ul>
+</div>
+<div class="section" id="pull-requests">
+<h3>Pull requests<a class="headerlink" href="#pull-requests" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/simpeg/discretize/pull/232">#232</a>: Exorcise Properties</p></li>
+<li><p><a class="reference external" href="https://github.com/simpeg/discretize/pull/234">#234</a>: Boundary conditions</p></li>
+<li><p><a class="reference external" href="https://github.com/simpeg/discretize/pull/240">#240</a>: Tree quiver plot</p></li>
+<li><p><a class="reference external" href="https://github.com/simpeg/discretize/pull/241">#241</a>: Update azure-pipelines.yml</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">Release Notes</a>
+    <a class='right-next' id="next-link" href="0.6.3-notes.html" title="next page"><code class="docutils literal notranslate"><span class="pre">discretize</span></code> 0.6.3 Release Notes</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2013 - 2021, SimPEG Developers, http://simpeg.xyz.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.1.2.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

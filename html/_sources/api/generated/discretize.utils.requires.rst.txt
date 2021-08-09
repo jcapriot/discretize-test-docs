@@ -1,0 +1,10 @@
+﻿discretize.utils.requires
+=========================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: requires
+
+.. minigallery:: discretize.utils.requires
+    :add-heading: Galleries and Tutorials using ``discretize.utils.requires``
+    :heading-level: -

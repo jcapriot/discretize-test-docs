@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.\_\_len\_\_
+==========================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseTensorMesh.__len__

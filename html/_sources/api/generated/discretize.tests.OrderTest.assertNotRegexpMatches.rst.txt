@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertNotRegexpMatches
+=================================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertNotRegexpMatches

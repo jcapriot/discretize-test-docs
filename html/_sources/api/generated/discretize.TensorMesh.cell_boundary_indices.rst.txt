@@ -1,0 +1,6 @@
+discretize.TensorMesh.cell\_boundary\_indices
+=============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.cell_boundary_indices

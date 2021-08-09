@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.equals
+==========================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseRectangularMesh.equals

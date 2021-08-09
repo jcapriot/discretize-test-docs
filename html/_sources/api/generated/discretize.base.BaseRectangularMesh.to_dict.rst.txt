@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.to\_dict
+============================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseRectangularMesh.to_dict

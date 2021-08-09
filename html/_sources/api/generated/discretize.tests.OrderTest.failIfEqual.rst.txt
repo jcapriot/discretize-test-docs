@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.failIfEqual
+======================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.failIfEqual

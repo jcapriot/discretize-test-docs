@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.face\_x\_divergence
+==============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.face_x_divergence

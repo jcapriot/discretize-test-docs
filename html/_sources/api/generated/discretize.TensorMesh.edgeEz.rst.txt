@@ -1,0 +1,6 @@
+discretize.TensorMesh.edgeEz
+============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.edgeEz

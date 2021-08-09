@@ -1,0 +1,10 @@
+﻿discretize.utils.make\_property\_tensor
+=======================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: make_property_tensor
+
+.. minigallery:: discretize.utils.make_property_tensor
+    :add-heading: Galleries and Tutorials using ``discretize.utils.make_property_tensor``
+    :heading-level: -

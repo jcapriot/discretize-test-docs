@@ -1,0 +1,40 @@
+﻿discretize.tree_mesh.TreeCell
+=============================
+
+.. currentmodule:: discretize.tree_mesh
+
+.. inheritance-diagram:: TreeCell
+    :parts: 1
+
+.. autoclass:: TreeCell
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+      
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         TreeCell.center
+         TreeCell.dim
+         TreeCell.edges
+         TreeCell.faces
+         TreeCell.h
+         TreeCell.index
+         TreeCell.neighbors
+         TreeCell.nodes
+         TreeCell.origin
+         TreeCell.x0
+  
+  
+
+.. minigallery:: discretize.tree_mesh.TreeCell
+    :add-heading: Galleries and Tutorials using ``discretize.tree_mesh.TreeCell``
+    :heading-level: -

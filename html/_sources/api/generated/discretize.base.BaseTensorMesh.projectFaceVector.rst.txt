@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.projectFaceVector
+================================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseTensorMesh.projectFaceVector

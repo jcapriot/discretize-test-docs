@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.normals
+======================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.normals

@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.n\_faces\_x
+====================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseMesh.n_faces_x

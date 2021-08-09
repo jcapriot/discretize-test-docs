@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertEquals
+=======================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertEquals

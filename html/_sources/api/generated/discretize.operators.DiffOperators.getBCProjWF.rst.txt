@@ -1,0 +1,6 @@
+discretize.operators.DiffOperators.getBCProjWF
+==============================================
+
+.. currentmodule:: discretize.operators
+
+.. automethod:: DiffOperators.getBCProjWF

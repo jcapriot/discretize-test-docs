@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.is\_symmetric
+========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.is_symmetric

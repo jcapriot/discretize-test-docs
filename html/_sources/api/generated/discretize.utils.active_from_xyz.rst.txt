@@ -1,0 +1,10 @@
+﻿discretize.utils.active\_from\_xyz
+==================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: active_from_xyz
+
+.. minigallery:: discretize.utils.active_from_xyz
+    :add-heading: Galleries and Tutorials using ``discretize.utils.active_from_xyz``
+    :heading-level: -

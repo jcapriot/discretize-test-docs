@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.stencil\_cell\_gradient\_y
+=====================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.stencil_cell_gradient_y

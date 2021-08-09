@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>discretize &#8212; discretize 0.7.0 documentation</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="_static/gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/gallery-rendered-html.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="shortcut icon" href="_static/logo-block.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Getting Started" href="content/getting_started.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="#">
+  <img src="_static/logo-block.ico" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="content/getting_started.html">
+  Getting Started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="content/user_guide.html">
+  User Guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="api/index.html">
+  API Reference
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="content/theory.html">
+  Theory
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="release/index.html">
+  Release Notes
+ </a>
+</li>
+
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://simpeg.xyz">SimPEG<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="http://slack.simpeg.xyz">Contact<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/simpeg/discretize" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://slack.simpeg.xyz/" rel="noopener" target="_blank" title="Slack">
+            <span><i class="fab fa-slack"></i></span>
+            <label class="sr-only">Slack</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://simpeg.discourse.group/" rel="noopener" target="_blank" title="Discourse">
+            <span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">Discourse</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/c/geoscixyz" rel="noopener" target="_blank" title="Youtube">
+            <span><i class="fab fa-youtube"></i></span>
+            <label class="sr-only">Youtube</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/simpegpy" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#installing">
+   Installing
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#citing-discretize">
+   Citing discretize
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links">
+   Links
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="discretize">
+<h1>discretize<a class="headerlink" href="#discretize" title="Permalink to this headline">¶</a></h1>
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/discretize"><img alt="Latest PyPI version" src="https://img.shields.io/pypi/v/discretize.svg" /></a>
+<a class="reference external image-reference" href="https://github.com/simpeg/discretize/blob/main/LICENSE"><img alt="MIT license" src="https://img.shields.io/github/license/simpeg/simpeg.svg" /></a>
+<a class="reference external image-reference" href="https://dev.azure.com/simpeg/discretize/_build/latest?definitionId=1&amp;branchName=main"><img alt="Azure pipelines build status" src="https://dev.azure.com/simpeg/discretize/_apis/build/status/simpeg.discretize?branchName=main" /></a>
+<a class="reference external image-reference" href="https://codecov.io/gh/simpeg/discretize"><img alt="Coverage status" src="https://codecov.io/gh/simpeg/discretize/branch/main/graph/badge.svg" /></a>
+<a class="reference external image-reference" href="https://www.codacy.com/app/lindseyheagy/discretize?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=simpeg/discretize&amp;amp;utm_campaign=Badge_Grade"><img alt="codacy status" src="https://api.codacy.com/project/badge/Grade/644262e9ee5d4fa79b7041e1ad61f131" /></a>
+<a class="reference external image-reference" href="https://doi.org/10.5281/zenodo.596411"><img alt="https://zenodo.org/badge/DOI/10.5281/zenodo.596411.svg" src="https://zenodo.org/badge/DOI/10.5281/zenodo.596411.svg" /></a>
+<a class="reference external image-reference" href="http://simpeg.discourse.group/"><img alt="https://img.shields.io/discourse/users?server=http%3A%2F%2Fsimpeg.discourse.group%2F" src="https://img.shields.io/discourse/users?server=http%3A%2F%2Fsimpeg.discourse.group%2F" /></a>
+<a class="reference external image-reference" href="http://slack.simpeg.xyz"><img alt="https://img.shields.io/badge/Slack-simpeg-4B0082.svg?logo=slack" src="https://img.shields.io/badge/Slack-simpeg-4B0082.svg?logo=slack" /></a>
+<a class="reference external image-reference" href="https://www.youtube.com/channel/UCBrC4M8_S4GXhyHht7FyQqw"><img alt="https://img.shields.io/badge/Youtube%20channel-GeoSci.xyz-FF0000.svg?logo=youtube" src="https://img.shields.io/badge/Youtube%20channel-GeoSci.xyz-FF0000.svg?logo=youtube" /></a>
+<p><strong>discretize</strong> - A python package for finite volume discretization.</p>
+<p>The vision is to create a package for finite volume simulation with a
+focus on large scale inverse problems.
+This package has the following features:</p>
+<ul class="simple">
+<li><p>modular with respect to the spacial discretization</p></li>
+<li><p>built with the inverse problem in mind</p></li>
+<li><p>supports 1D, 2D and 3D problems</p></li>
+<li><p>access to sparse matrix operators</p></li>
+<li><p>access to derivatives to mesh variables</p></li>
+</ul>
+<img alt="https://raw.githubusercontent.com/simpeg/figures/master/finitevolume/cell-anatomy-tensor.png" src="https://raw.githubusercontent.com/simpeg/figures/master/finitevolume/cell-anatomy-tensor.png" />
+<p>Currently, discretize supports:</p>
+<ul class="simple">
+<li><p>Tensor Meshes (1D, 2D and 3D)</p></li>
+<li><p>Cylindrically Symmetric Meshes</p></li>
+<li><p>QuadTree and OcTree Meshes (2D and 3D)</p></li>
+<li><p>Logically Rectangular Meshes (2D and 3D)</p></li>
+</ul>
+<div class="section" id="installing">
+<h2>Installing<a class="headerlink" href="#installing" title="Permalink to this headline">¶</a></h2>
+<p><strong>discretize</strong> is on conda-forge</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge discretize
+</pre></div>
+</div>
+<p><strong>discretize</strong> is on pypi</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip install discretize
+</pre></div>
+</div>
+<p>To install from source</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/simpeg/discretize.git
+python setup.py install
+</pre></div>
+</div>
+</div>
+<div class="section" id="citing-discretize">
+<h2>Citing discretize<a class="headerlink" href="#citing-discretize" title="Permalink to this headline">¶</a></h2>
+<p>Please cite the SimPEG paper when using discretize in your work:</p>
+<blockquote>
+<div><p>Cockett, R., Kang, S., Heagy, L. J., Pidlisecky, A., &amp; Oldenburg, D. W. (2015). SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications. Computers &amp; Geosciences.</p>
+</div></blockquote>
+<p><strong>BibTex:</strong></p>
+<div class="highlight-Latex notranslate"><div class="highlight"><pre><span></span>@article<span class="nb">{</span>cockett2015simpeg,
+  title=<span class="nb">{</span>SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications<span class="nb">}</span>,
+  author=<span class="nb">{</span>Cockett, Rowan and Kang, Seogi and Heagy, Lindsey J and Pidlisecky, Adam and Oldenburg, Douglas W<span class="nb">}</span>,
+  journal=<span class="nb">{</span>Computers <span class="k">\&amp;</span> Geosciences<span class="nb">}</span>,
+  year=<span class="nb">{</span>2015<span class="nb">}</span>,
+  publisher=<span class="nb">{</span>Elsevier<span class="nb">}</span>
+<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<p>Website:
+<a class="reference external" href="http://simpeg.xyz">http://simpeg.xyz</a></p>
+<p>Documentation:
+<a class="reference external" href="http://discretize.simpeg.xyz">http://discretize.simpeg.xyz</a></p>
+<p>Code:
+<a class="reference external" href="https://github.com/simpeg/discretize">https://github.com/simpeg/discretize</a></p>
+<p>Tests:
+<a class="reference external" href="https://travis-ci.org/simpeg/discretize">https://travis-ci.org/simpeg/discretize</a></p>
+<p>Bugs &amp; Issues:
+<a class="reference external" href="https://github.com/simpeg/discretize/issues">https://github.com/simpeg/discretize/issues</a></p>
+<p>Questions:
+<a class="reference external" href="http://simpeg.discourse.group/">http://simpeg.discourse.group/</a></p>
+<p>Chat:
+<a class="reference external" href="http://slack.simpeg.xyz/">http://slack.simpeg.xyz/</a></p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='right-next' id="next-link" href="content/getting_started.html" title="next page">Getting Started</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2013 - 2021, SimPEG Developers, http://simpeg.xyz.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.1.2.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

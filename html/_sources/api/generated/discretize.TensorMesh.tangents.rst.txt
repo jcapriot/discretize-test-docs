@@ -1,0 +1,6 @@
+discretize.TensorMesh.tangents
+==============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.tangents

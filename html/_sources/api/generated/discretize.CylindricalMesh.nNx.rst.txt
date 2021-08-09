@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.nNx
+==============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.nNx

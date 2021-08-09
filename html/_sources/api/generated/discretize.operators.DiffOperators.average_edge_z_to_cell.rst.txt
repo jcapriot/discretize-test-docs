@@ -1,0 +1,6 @@
+discretize.operators.DiffOperators.average\_edge\_z\_to\_cell
+=============================================================
+
+.. currentmodule:: discretize.operators
+
+.. autoproperty:: DiffOperators.average_edge_z_to_cell

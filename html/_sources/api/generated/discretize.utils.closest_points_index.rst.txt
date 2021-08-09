@@ -1,0 +1,10 @@
+﻿discretize.utils.closest\_points\_index
+=======================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: closest_points_index
+
+.. minigallery:: discretize.utils.closest_points_index
+    :add-heading: Galleries and Tutorials using ``discretize.utils.closest_points_index``
+    :heading-level: -

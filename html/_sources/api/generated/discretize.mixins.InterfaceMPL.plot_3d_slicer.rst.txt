@@ -1,0 +1,6 @@
+discretize.mixins.InterfaceMPL.plot\_3d\_slicer
+===============================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: InterfaceMPL.plot_3d_slicer

@@ -1,0 +1,10 @@
+﻿discretize.utils.download
+=========================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: download
+
+.. minigallery:: discretize.utils.download
+    :add-heading: Galleries and Tutorials using ``discretize.utils.download``
+    :heading-level: -

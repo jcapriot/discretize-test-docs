@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.equals
+===============================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseMesh.equals

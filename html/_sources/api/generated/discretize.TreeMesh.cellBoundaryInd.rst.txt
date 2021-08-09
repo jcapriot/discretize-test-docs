@@ -1,0 +1,6 @@
+discretize.TreeMesh.cellBoundaryInd
+===================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.cellBoundaryInd

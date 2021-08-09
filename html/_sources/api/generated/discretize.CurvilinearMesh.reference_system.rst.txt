@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.reference\_system
+============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.reference_system

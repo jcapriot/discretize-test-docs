@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.r
+=====================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseRectangularMesh.r

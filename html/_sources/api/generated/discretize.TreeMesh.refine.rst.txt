@@ -1,0 +1,6 @@
+discretize.TreeMesh.refine
+==========================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.refine

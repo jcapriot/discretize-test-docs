@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.boundary\_edges
+==========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.boundary_edges

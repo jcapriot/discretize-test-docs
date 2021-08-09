@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.projectEdgeVector
+============================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.projectEdgeVector

@@ -1,0 +1,6 @@
+discretize.TreeMesh.number
+==========================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.number

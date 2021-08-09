@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.toVTK
+================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.toVTK

@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>discretize 0.6.0 Release Notes &#8212; discretize 0.7.0 documentation</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-rendered-html.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="shortcut icon" href="../_static/logo-block.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="discretize 0.5.1 Release Notes" href="0.5.1-notes.html" />
+    <link rel="prev" title="discretize 0.6.1 Release Notes" href="0.6.1-notes.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../index.html">
+  <img src="../_static/logo-block.ico" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../content/getting_started.html">
+  Getting Started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../content/user_guide.html">
+  User Guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../api/index.html">
+  API Reference
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../content/theory.html">
+  Theory
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="index.html">
+  Release Notes
+ </a>
+</li>
+
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://simpeg.xyz">SimPEG<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="http://slack.simpeg.xyz">Contact<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/simpeg/discretize" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://slack.simpeg.xyz/" rel="noopener" target="_blank" title="Slack">
+            <span><i class="fab fa-slack"></i></span>
+            <label class="sr-only">Slack</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://simpeg.discourse.group/" rel="noopener" target="_blank" title="Discourse">
+            <span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">Discourse</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/c/geoscixyz" rel="noopener" target="_blank" title="Youtube">
+            <span><i class="fab fa-youtube"></i></span>
+            <label class="sr-only">Youtube</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/simpegpy" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.7.0-notes.html">
+   0.7.0
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.6.3-notes.html">
+   0.6.3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.6.2-notes.html">
+   0.6.2
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.6.1-notes.html">
+   0.6.1
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   0.6.0
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.5.1-notes.html">
+   0.5.1
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.5.0-notes.html">
+   0.5.0
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.4.15-notes.html">
+   0.4.15
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.4.14-notes.html">
+   0.4.14
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.4.13-notes.html">
+   0.4.13
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="0.4.12-notes.html">
+   0.4.12
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#changes">
+   Changes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#aliases">
+     Aliases
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#deprecations">
+     Deprecations
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#base-classes">
+       Base Classes
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#main-meshes">
+       Main Meshes
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#utilities-deprecations">
+       Utilities deprecations
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contributors">
+   Contributors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pull-requests">
+   Pull requests
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="discretize-0-6-0-release-notes">
+<span id="notes"></span><h1><code class="docutils literal notranslate"><span class="pre">discretize</span></code> 0.6.0 Release Notes<a class="headerlink" href="#discretize-0-6-0-release-notes" title="Permalink to this headline">¶</a></h1>
+<p>This minor release is intended to bring consistent pep8 style naming across all
+of discretize’s classes and functions.</p>
+<p>There are two major types of renaming, aliases and deprecations. We have chosen
+to move to more descriptive property names for classes, generally.
+For example, <code class="docutils literal notranslate"><span class="pre">mesh.area</span></code> is deprecated and now is <code class="docutils literal notranslate"><span class="pre">mesh.face_area</span></code>. Also
+properties like <code class="docutils literal notranslate"><span class="pre">mesh.vnC</span></code> are now officially <code class="docutils literal notranslate"><span class="pre">mesh.shape_cells</span></code> due to the
+more descriptive name, but can also be accessed as <code class="docutils literal notranslate"><span class="pre">mesh.vnC</span></code> to speed up some
+code writing for users. We have included a full list of aliases and deprecations
+below. In PR <a class="reference external" href="https://github.com/simpeg/discretize/pull/227">#227</a> we have detailed
+our reasonings behind individual name choices.</p>
+<p>The other big change that will likely cause previous code to break is that all of
+these <code class="docutils literal notranslate"><span class="pre">mesh.shape_*</span></code> type properties are now explicitly <code class="docutils literal notranslate"><span class="pre">tuple</span></code>-s, making
+them immutable. These properties could previously be modified which would result
+in undefined and unsafe behavoir. A side effect of this, is that any code that
+relied on these properties being <code class="docutils literal notranslate"><span class="pre">numpy.ndarray</span></code>-s, will break. This is
+intentional.</p>
+<p>There’s a few internal changes as well, to reorganize the file structure. importing
+items in <code class="docutils literal notranslate"><span class="pre">discretize.utils</span></code> from their individual module files is not recommended
+and might result in future broken code. Please only import these items from the
+<code class="docutils literal notranslate"><span class="pre">discretize.utils</span></code> module.</p>
+<p>We have also separated the <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> plotting code into a separate module:
+<code class="docutils literal notranslate"><span class="pre">discretize.utils.mixins.mpl_mod</span></code>. At the same time we have further improved
+the plotting speed of <code class="docutils literal notranslate"><span class="pre">discretize.TreeMesh</span></code> and <code class="docutils literal notranslate"><span class="pre">discretize.CurvilinearMesh</span></code>.
+This also allows all of these functions to have a unified calling convention.</p>
+<p>Finally, we have removed assert errors in favor of throwing the proper exception
+when checking inputs. We have removed all references to <code class="docutils literal notranslate"><span class="pre">__future__</span></code> and <code class="docutils literal notranslate"><span class="pre">six</span></code>
+to clean up and drop python 2 compatibility.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Testing now uses Azure CI. The new hub can be found at <a class="reference external" href="https://dev.azure.com/simpeg/">https://dev.azure.com/simpeg/</a></p>
+</div>
+<div class="section" id="changes">
+<h2>Changes<a class="headerlink" href="#changes" title="Permalink to this headline">¶</a></h2>
+<p>This is a full list of the aliases and deprecations for this <code class="docutils literal notranslate"><span class="pre">discretize</span></code> release.</p>
+<div class="section" id="aliases">
+<h3>Aliases<a class="headerlink" href="#aliases" title="Permalink to this headline">¶</a></h3>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.base.BaseMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">origin=x0</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">n_cells=nC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">n_nodes=nN</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">n_edges=nE</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">n_faces=nF</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">n_edges_x=nEx</span></code>, <code class="docutils literal notranslate"><span class="pre">n_edges_y=nEy</span></code>, <code class="docutils literal notranslate"><span class="pre">n_edges_z=nEz</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">n_faces_x=nFx</span></code>, <code class="docutils literal notranslate"><span class="pre">n_faces_y=nFy</span></code>, <code class="docutils literal notranslate"><span class="pre">n_faces_z=nFz</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">n_edges_per_direction=vnE</span></code>, <code class="docutils literal notranslate"><span class="pre">n_faces_per_direction=vnF</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.base.BaseRectangularMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">shape_cells=vnC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">shape_nodes=vnN</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">shape_edges_x=vnEx</span></code>, <code class="docutils literal notranslate"><span class="pre">shape_edges_y=vnEy</span></code>, <code class="docutils literal notranslate"><span class="pre">shape_edges_z=vnEz</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">shape_faces_x=vnFx</span></code>, <code class="docutils literal notranslate"><span class="pre">shape_faces_y=vnFy</span></code>, <code class="docutils literal notranslate"><span class="pre">shape_faces_z=vnFz</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.base.BaseTensorMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cell_centers=gridCC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">nodes=gridN</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">edges_x=gridEx</span></code>, <code class="docutils literal notranslate"><span class="pre">edges_y=gridEy</span></code>, <code class="docutils literal notranslate"><span class="pre">edges_z=gridEz</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">faces_x=gridFx</span></code>, <code class="docutils literal notranslate"><span class="pre">faces_y=gridFy</span></code>, <code class="docutils literal notranslate"><span class="pre">faces_z=gridFz</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.operators.DiffOperators</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">average_face_to_cell=aveF2CC</span></code>, <code class="docutils literal notranslate"><span class="pre">average_face_to_cell_vector=aveF2CCV</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">average_face_x_to_cell=aveFx2CC</span></code>, <code class="docutils literal notranslate"><span class="pre">average_face_y_to_cell=aveFy2CC</span></code>, <code class="docutils literal notranslate"><span class="pre">average_face_z_to_cell=aveFz2CC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">average_cell_to_face=aveCC2F</span></code>, <code class="docutils literal notranslate"><span class="pre">average_cell_vector_to_face=aveCCV2F</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">average_edge_to_cell=aveE2CC</span></code>, <code class="docutils literal notranslate"><span class="pre">average_edge_to_cell_vector=aveE2CCV</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">average_edge_x_to_cell=aveEx2CC</span></code>, <code class="docutils literal notranslate"><span class="pre">average_edge_y_to_cell=aveEy2CC</span></code>, <code class="docutils literal notranslate"><span class="pre">average_edge_z_to_cell=aveEz2CC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">average_node_to_cell=aveN2CC</span></code>, <code class="docutils literal notranslate"><span class="pre">average_node_to_edge=aveN2E</span></code>, <code class="docutils literal notranslate"><span class="pre">average_node_to_face=aveN2F</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">TreeMesh</span></code>:</p>
+<ul class="simple">
+<li><p>Similar to above, all <code class="docutils literal notranslate"><span class="pre">n_hanging_XXX=nhX</span></code>, and <code class="docutils literal notranslate"><span class="pre">n_total_XXX=ntX</span></code>, for each <code class="docutils literal notranslate"><span class="pre">node=N</span></code>, <code class="docutils literal notranslate"><span class="pre">face_x,y,z=Fx,y,z</span></code>, and <code class="docutils literal notranslate"><span class="pre">edge_x,y,z=Ex,y,z</span></code></p></li>
+<li><p>Also, similar to above: <code class="docutils literal notranslate"><span class="pre">hanging_XXX=gridhX</span></code>, for each hanging <code class="docutils literal notranslate"><span class="pre">node=N</span></code>, <code class="docutils literal notranslate"><span class="pre">face_x,y,z=Fx,y,z</span></code> and <code class="docutils literal notranslate"><span class="pre">edge_x,y,z=Ex,y,z</span></code></p></li>
+</ul>
+<p>These aliases are consistent across all meshes that inherit from these classes:
+<code class="docutils literal notranslate"><span class="pre">discretize.TensorMesh</span></code>, <code class="docutils literal notranslate"><span class="pre">discretize.CurvilinearMesh</span></code>, <code class="docutils literal notranslate"><span class="pre">discretize.CylindricalMesh</span></code>,
+and <code class="docutils literal notranslate"><span class="pre">discretize.TreeMesh</span></code>.</p>
+</div>
+<div class="section" id="deprecations">
+<h3>Deprecations<a class="headerlink" href="#deprecations" title="Permalink to this headline">¶</a></h3>
+<p>These deprecations will give <code class="docutils literal notranslate"><span class="pre">FutureWarning</span></code> when called indicating that they
+will be removed in version 1.0.0 of <code class="docutils literal notranslate"><span class="pre">discretize</span></code>.</p>
+<div class="section" id="base-classes">
+<h4>Base Classes<a class="headerlink" href="#base-classes" title="Permalink to this headline">¶</a></h4>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.base.BaseMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">normals</span></code> → <code class="docutils literal notranslate"><span class="pre">face_normals</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tangents</span></code> → <code class="docutils literal notranslate"><span class="pre">edge_tangents</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">projectEdgeVector</span></code> → <code class="docutils literal notranslate"><span class="pre">project_edge_vector</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">projectFaceVector</span></code> → <code class="docutils literal notranslate"><span class="pre">project_face_vector</span></code></p></li>
+</ul>
+<p>On  <code class="docutils literal notranslate"><span class="pre">discretize.base.BaseRectangularMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">r</span></code> → <code class="docutils literal notranslate"><span class="pre">reshape</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">nCx</span></code> → <code class="docutils literal notranslate"><span class="pre">shape_cells[0]</span></code>, <code class="docutils literal notranslate"><span class="pre">nCy</span></code> → <code class="docutils literal notranslate"><span class="pre">shape_cells[1]</span></code>, <code class="docutils literal notranslate"><span class="pre">nCz</span></code> → <code class="docutils literal notranslate"><span class="pre">shape_cells[2]</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">nNx</span></code> → <code class="docutils literal notranslate"><span class="pre">shape_nodes[0]</span></code>, <code class="docutils literal notranslate"><span class="pre">nNy</span></code> → <code class="docutils literal notranslate"><span class="pre">shape_nodes[1]</span></code>, <code class="docutils literal notranslate"><span class="pre">nNz</span></code> → <code class="docutils literal notranslate"><span class="pre">shape_nodes[2]</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hx``→``h[0]</span></code>, <code class="docutils literal notranslate"><span class="pre">hy</span></code> → <code class="docutils literal notranslate"><span class="pre">h[1]</span></code>, <code class="docutils literal notranslate"><span class="pre">hz``→</span> <span class="pre">``h[2]</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.base.BaseTensorMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">vectorNx</span></code> → <code class="docutils literal notranslate"><span class="pre">nodes_x</span></code>, <code class="docutils literal notranslate"><span class="pre">vectorNy</span></code> → <code class="docutils literal notranslate"><span class="pre">nodes_y</span></code>, <code class="docutils literal notranslate"><span class="pre">vectorNz</span></code> → <code class="docutils literal notranslate"><span class="pre">nodes_z</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vectorCCx</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_centers_x</span></code>, <code class="docutils literal notranslate"><span class="pre">vectorCCy</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_centers_y</span></code>, <code class="docutils literal notranslate"><span class="pre">vectorCCz</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_centers_z</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getInterpolationMat</span></code> → <code class="docutils literal notranslate"><span class="pre">get_interpolation_matrix</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">isInside</span></code> → <code class="docutils literal notranslate"><span class="pre">is_inside</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getTensor</span></code> → <code class="docutils literal notranslate"><span class="pre">get_tensor</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.base.MeshIO</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">readUBC</span></code> → <code class="docutils literal notranslate"><span class="pre">read_UBC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">readModelUBC</span></code> → <code class="docutils literal notranslate"><span class="pre">read_model_UBC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">writeUBC</span></code> → <code class="docutils literal notranslate"><span class="pre">write_UBC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">writeModelUBC</span></code> → <code class="docutils literal notranslate"><span class="pre">write_model_UBC</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.operators.DiffOperators</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cellGrad</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_gradient</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cellGradBC</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_gradient_BC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cellGradx</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_gradient_x</span></code>, <code class="docutils literal notranslate"><span class="pre">cellGrady</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_gradient_y</span></code>, <code class="docutils literal notranslate"><span class="pre">cellGradz</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_gradient_z</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">nodalGrad</span></code> → <code class="docutils literal notranslate"><span class="pre">nodal_gradient</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">nodalLaplacian</span></code> → <code class="docutils literal notranslate"><span class="pre">nodal_laplacian</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">faceDiv</span></code> → <code class="docutils literal notranslate"><span class="pre">face_divergence</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">faceDivx</span></code> → <code class="docutils literal notranslate"><span class="pre">face_x_divergence</span></code>, <code class="docutils literal notranslate"><span class="pre">faceDivy</span></code> → <code class="docutils literal notranslate"><span class="pre">face_y_divergence</span></code>, <code class="docutils literal notranslate"><span class="pre">faceDivz</span></code> →``face_z_divergence``</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">edgeCurl</span></code> → <code class="docutils literal notranslate"><span class="pre">edge_curl</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">setCellGradBC</span></code> → <code class="docutils literal notranslate"><span class="pre">set_cell_gradient_BC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getBCProjWF</span></code> → <code class="docutils literal notranslate"><span class="pre">get_BC_projections</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getBCProjWF_simple</span></code> → <code class="docutils literal notranslate"><span class="pre">get_BC_projections_simple</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.operators.InnerProducts</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">getFaceInnerProduct</span></code> → <code class="docutils literal notranslate"><span class="pre">get_face_inner_product</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getEdgeInnerProduct</span></code> → <code class="docutils literal notranslate"><span class="pre">get_edge_inner_product</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getFaceInnerProductDeriv</span></code> → <code class="docutils literal notranslate"><span class="pre">get_face_inner_product_deriv</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getEdgeInnerProductDeriv</span></code> → <code class="docutils literal notranslate"><span class="pre">get_edge_inner_product_deriv</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="main-meshes">
+<h4>Main Meshes<a class="headerlink" href="#main-meshes" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">CylMesh</span></code> → <code class="docutils literal notranslate"><span class="pre">CylindricalMesh</span></code></p>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.TensorMesh</span></code>, <code class="docutils literal notranslate"><span class="pre">discretize.CylindricalMesh</span></code>, <code class="docutils literal notranslate"><span class="pre">discretize.TreeMesh</span></code>, <code class="docutils literal notranslate"><span class="pre">discretize.CurvilinearMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">vol</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_volumes</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">area</span></code> → <code class="docutils literal notranslate"><span class="pre">face_areas</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">edge</span></code> → <code class="docutils literal notranslate"><span class="pre">edge_lengths</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.TensorMesh</span></code>, <code class="docutils literal notranslate"><span class="pre">discretize.CylindricalMesh</span></code>, <code class="docutils literal notranslate"><span class="pre">discretize.TreeMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">areaFx</span></code> → <code class="docutils literal notranslate"><span class="pre">face_x_areas</span></code>, <code class="docutils literal notranslate"><span class="pre">areaFy</span></code> → <code class="docutils literal notranslate"><span class="pre">face_y_areas</span></code>, <code class="docutils literal notranslate"><span class="pre">areaFz</span></code> →``face_z_areas``</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">edgeEx</span></code> → <code class="docutils literal notranslate"><span class="pre">edge_x_lengths</span></code>, <code class="docutils literal notranslate"><span class="pre">edgeEy</span></code> → <code class="docutils literal notranslate"><span class="pre">edge_y_lengths</span></code>, <code class="docutils literal notranslate"><span class="pre">edgeEz</span></code> →``edge_z_lengths``</p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.TensorMesh</span></code>, <code class="docutils literal notranslate"><span class="pre">discretize.TreeMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">faceBoundaryInd</span></code> → <code class="docutils literal notranslate"><span class="pre">face_boundary_indices</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cellBoundaryInd</span></code> → <code class="docutils literal notranslate"><span class="pre">cell_boundary_indices</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.CurvilinearMesh</span></code>:
+* The <code class="docutils literal notranslate"><span class="pre">nodes</span></code> property is now <code class="docutils literal notranslate"><span class="pre">node_list</span></code> to avoid the name clash with the <code class="docutils literal notranslate"><span class="pre">nodes</span></code> location property</p>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.CylindricalMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">isSymmetric</span></code> → <code class="docutils literal notranslate"><span class="pre">is_symmetric</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cartesianOrigin</span></code> → <code class="docutils literal notranslate"><span class="pre">cartesian_origin</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getInterpolationMatCartMesh</span></code> → <code class="docutils literal notranslate"><span class="pre">get_interpolation_matrix_cartesian_mesh</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cartesianGrid</span></code> → <code class="docutils literal notranslate"><span class="pre">cartesian_grid</span></code></p></li>
+</ul>
+<p>On <code class="docutils literal notranslate"><span class="pre">discretize.TreeMesh</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">maxLevel</span></code> → <code class="docutils literal notranslate"><span class="pre">max_used_level</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">permuteCC</span></code> → <code class="docutils literal notranslate"><span class="pre">permute_cells</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">permuteF</span></code> → <code class="docutils literal notranslate"><span class="pre">permute_faces</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">permuteE</span></code> → <code class="docutils literal notranslate"><span class="pre">permute_edges</span></code></p></li>
+</ul>
+<p>And for plotting with <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">plotGrid</span></code> → <code class="docutils literal notranslate"><span class="pre">plot_grid</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">plotImage</span></code> → <code class="docutils literal notranslate"><span class="pre">plot_image</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">plotSlice</span></code> → <code class="docutils literal notranslate"><span class="pre">plot_slice</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="utilities-deprecations">
+<h4>Utilities deprecations<a class="headerlink" href="#utilities-deprecations" title="Permalink to this headline">¶</a></h4>
+<p>Deprecations inside <code class="docutils literal notranslate"><span class="pre">discretize.utils</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">isScalar</span></code> → <code class="docutils literal notranslate"><span class="pre">is_scalar</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">asArray_N_x_Dim</span></code> → <code class="docutils literal notranslate"><span class="pre">as_array_n_by_dim</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sdInv</span></code> → <code class="docutils literal notranslate"><span class="pre">sdinv</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">getSubArray</span></code> → <code class="docutils literal notranslate"><span class="pre">get_subarray</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">inv3X3BlockDiagonal</span></code> → <code class="docutils literal notranslate"><span class="pre">inverse_3x3_block_diagonal</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">inv2X2BlockDiagonal</span></code> → <code class="docutils literal notranslate"><span class="pre">inverse_2x2_block_diagonal</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">makePropertyTensor</span></code> → <code class="docutils literal notranslate"><span class="pre">make_property_tensor</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">invPropertyTensor</span></code> → <code class="docutils literal notranslate"><span class="pre">inverse_property_tensor</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">exampleLrmGrid</span></code> → <code class="docutils literal notranslate"><span class="pre">example_curvilinear_grid</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">meshTensor</span></code> → <code class="docutils literal notranslate"><span class="pre">unpack_widths</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">closestPoints</span></code> → <code class="docutils literal notranslate"><span class="pre">closest_points_index</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ExtractCoreMesh</span></code> → <code class="docutils literal notranslate"><span class="pre">extract_core_mesh</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">volTetra</span></code> → <code class="docutils literal notranslate"><span class="pre">volume_tetrahedron</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">indexCube</span></code> → <code class="docutils literal notranslate"><span class="pre">index_cube</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">faceInfo</span></code> → <code class="docutils literal notranslate"><span class="pre">face_info</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">interpmat</span></code> → <code class="docutils literal notranslate"><span class="pre">interpolation_matrix</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rotationMatrixFromNormals</span></code> → <code class="docutils literal notranslate"><span class="pre">rotate_points_from_normals</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rotatePointsFromNormals</span></code> → <code class="docutils literal notranslate"><span class="pre">rotation_matrix_from_normals</span></code></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="contributors">
+<h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>&#64;jcapriot</p></li>
+</ul>
+<p>With reviews from:</p>
+<ul class="simple">
+<li><p>&#64;prisae</p></li>
+<li><p>&#64;lheagy</p></li>
+</ul>
+<p>Also, input on function names were given by many of the <code class="docutils literal notranslate"><span class="pre">discretize</span></code> developers.</p>
+</div>
+<div class="section" id="pull-requests">
+<h2>Pull requests<a class="headerlink" href="#pull-requests" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/simpeg/discretize/pull/227">#227</a>: Restructure.</p></li>
+</ul>
+</div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='left-prev' id="prev-link" href="0.6.1-notes.html" title="previous page"><code class="docutils literal notranslate"><span class="pre">discretize</span></code> 0.6.1 Release Notes</a>
+    <a class='right-next' id="next-link" href="0.5.1-notes.html" title="next page"><code class="docutils literal notranslate"><span class="pre">discretize</span></code> 0.5.1 Release Notes</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2013 - 2021, SimPEG Developers, http://simpeg.xyz.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.1.2.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

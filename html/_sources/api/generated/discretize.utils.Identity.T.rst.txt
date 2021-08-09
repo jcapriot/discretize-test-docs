@@ -1,0 +1,6 @@
+discretize.utils.Identity.T
+===========================
+
+.. currentmodule:: discretize.utils
+
+.. autoproperty:: Identity.T

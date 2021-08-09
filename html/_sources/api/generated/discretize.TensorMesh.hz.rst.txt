@@ -1,0 +1,6 @@
+discretize.TensorMesh.hz
+========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.hz

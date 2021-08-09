@@ -1,0 +1,6 @@
+discretize.TensorMesh.cellGrad
+==============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.cellGrad

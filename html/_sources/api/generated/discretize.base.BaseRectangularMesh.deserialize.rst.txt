@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.deserialize
+===============================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseRectangularMesh.deserialize

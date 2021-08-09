@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.tearDown
+===================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.tearDown

@@ -1,0 +1,6 @@
+discretize.TreeMesh.\_\_getitem\_\_
+===================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.__getitem__

@@ -1,0 +1,6 @@
+discretize.tree\_mesh.TreeCell.x0
+=================================
+
+.. currentmodule:: discretize.tree_mesh
+
+.. autoattribute:: TreeCell.x0

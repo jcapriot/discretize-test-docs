@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.countTestCases
+=========================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.countTestCases

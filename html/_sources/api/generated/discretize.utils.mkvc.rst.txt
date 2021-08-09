@@ -1,0 +1,10 @@
+﻿discretize.utils.mkvc
+=====================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: mkvc
+
+.. minigallery:: discretize.utils.mkvc
+    :add-heading: Galleries and Tutorials using ``discretize.utils.mkvc``
+    :heading-level: -

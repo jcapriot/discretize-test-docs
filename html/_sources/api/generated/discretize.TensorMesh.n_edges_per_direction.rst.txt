@@ -1,0 +1,6 @@
+discretize.TensorMesh.n\_edges\_per\_direction
+==============================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.n_edges_per_direction

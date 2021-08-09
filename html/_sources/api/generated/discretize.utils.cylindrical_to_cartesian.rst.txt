@@ -1,0 +1,10 @@
+﻿discretize.utils.cylindrical\_to\_cartesian
+===========================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: cylindrical_to_cartesian
+
+.. minigallery:: discretize.utils.cylindrical_to_cartesian
+    :add-heading: Galleries and Tutorials using ``discretize.utils.cylindrical_to_cartesian``
+    :heading-level: -

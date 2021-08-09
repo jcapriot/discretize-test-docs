@@ -1,0 +1,6 @@
+discretize.TreeMesh.average\_cell\_to\_face\_x
+==============================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.average_cell_to_face_x

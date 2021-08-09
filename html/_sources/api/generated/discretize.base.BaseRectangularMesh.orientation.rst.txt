@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.orientation
+===============================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseRectangularMesh.orientation

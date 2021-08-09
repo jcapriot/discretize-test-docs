@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.is\_inside
+=====================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.is_inside

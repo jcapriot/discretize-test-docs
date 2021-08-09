@@ -1,0 +1,12 @@
+<map id="inheritance88637fd1f6" name="inheritance88637fd1f6">
+<area shape="rect" id="node1" href="discretize.base.BaseMesh.html#discretize.base.BaseMesh" target="_top" title="Base mesh class for the ``discretize`` package" alt="" coords="13,5,97,31"/>
+<area shape="rect" id="node2" href="discretize.base.BaseTensorMesh.html#discretize.base.BaseTensorMesh" target="_top" title="Base class for tensor&#45;product style meshes" alt="" coords="153,5,276,31"/>
+<area shape="rect" id="node9" href="#discretize.TreeMesh" target="_top" title="Class for QuadTree (2D) and OcTree (3D) meshes." alt="" coords="324,104,403,129"/>
+<area shape="rect" id="node3" href="discretize.operators.DiffOperators.html#discretize.operators.DiffOperators" target="_top" title="Class used for creating differential and averaging operators." alt="" coords="166,55,263,80"/>
+<area shape="rect" id="node4" href="discretize.operators.InnerProducts.html#discretize.operators.InnerProducts" target="_top" title="Class for constructing inner product matrices." alt="" coords="163,104,266,129"/>
+<area shape="rect" id="node5" href="discretize.mixins.InterfaceMPL.html#discretize.mixins.InterfaceMPL" target="_top" title="Class for plotting ``discretize`` meshes with matplotlib." alt="" coords="6,104,105,129"/>
+<area shape="rect" id="node6" title="This class handles all the avaialble mixins that can be inherrited" alt="" coords="160,153,269,179"/>
+<area shape="rect" id="node7" href="discretize.mixins.InterfaceVTK.html#discretize.mixins.InterfaceVTK" target="_top" title="Class enabling straight forward conversion between ``discretize``" alt="" coords="7,153,103,179"/>
+<area shape="rect" id="node8" href="discretize.mixins.InterfaceOMF.html#discretize.mixins.InterfaceOMF" target="_top" title="The ``InterfaceOMF`` class was designed for easy conversion between" alt="" coords="5,203,105,228"/>
+<area shape="rect" id="node10" href="discretize.mixins.TreeMeshIO.html#discretize.mixins.TreeMeshIO" target="_top" title="Class for managing the input/output of tree meshes and models." alt="" coords="169,203,261,228"/>
+</map>

@@ -1,0 +1,6 @@
+discretize.TensorMesh.hy
+========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.hy

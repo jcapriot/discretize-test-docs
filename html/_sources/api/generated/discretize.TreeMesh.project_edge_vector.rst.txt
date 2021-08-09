@@ -1,0 +1,6 @@
+discretize.TreeMesh.project\_edge\_vector
+=========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.project_edge_vector

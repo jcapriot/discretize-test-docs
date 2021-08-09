@@ -1,0 +1,89 @@
+﻿discretize.operators.DiffOperators
+==================================
+
+.. currentmodule:: discretize.operators
+
+.. inheritance-diagram:: DiffOperators
+    :parts: 1
+
+.. autoclass:: DiffOperators
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         DiffOperators.cell_gradient_weak_form_robin
+         DiffOperators.edge_divergence_weak_form_robin
+         DiffOperators.getBCProjWF
+         DiffOperators.getBCProjWF_simple
+         DiffOperators.get_BC_projections
+         DiffOperators.get_BC_projections_simple
+         DiffOperators.setCellGradBC
+         DiffOperators.set_cell_gradient_BC
+      
+  
+
+  
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         DiffOperators.average_cell_to_edge
+         DiffOperators.average_cell_to_face
+         DiffOperators.average_cell_vector_to_face
+         DiffOperators.average_edge_to_cell
+         DiffOperators.average_edge_to_cell_vector
+         DiffOperators.average_edge_to_face_vector
+         DiffOperators.average_edge_x_to_cell
+         DiffOperators.average_edge_y_to_cell
+         DiffOperators.average_edge_z_to_cell
+         DiffOperators.average_face_to_cell
+         DiffOperators.average_face_to_cell_vector
+         DiffOperators.average_face_x_to_cell
+         DiffOperators.average_face_y_to_cell
+         DiffOperators.average_face_z_to_cell
+         DiffOperators.average_node_to_cell
+         DiffOperators.average_node_to_edge
+         DiffOperators.average_node_to_face
+         DiffOperators.boundary_edge_vector_integral
+         DiffOperators.boundary_face_scalar_integral
+         DiffOperators.boundary_node_vector_integral
+         DiffOperators.cellGrad
+         DiffOperators.cellGradBC
+         DiffOperators.cellGradx
+         DiffOperators.cellGrady
+         DiffOperators.cellGradz
+         DiffOperators.cell_gradient
+         DiffOperators.cell_gradient_BC
+         DiffOperators.cell_gradient_x
+         DiffOperators.cell_gradient_y
+         DiffOperators.cell_gradient_z
+         DiffOperators.edgeCurl
+         DiffOperators.edge_curl
+         DiffOperators.faceDiv
+         DiffOperators.faceDivx
+         DiffOperators.faceDivy
+         DiffOperators.faceDivz
+         DiffOperators.face_divergence
+         DiffOperators.face_x_divergence
+         DiffOperators.face_y_divergence
+         DiffOperators.face_z_divergence
+         DiffOperators.nodalGrad
+         DiffOperators.nodalLaplacian
+         DiffOperators.nodal_gradient
+         DiffOperators.nodal_laplacian
+         DiffOperators.project_edge_to_boundary_edge
+         DiffOperators.project_face_to_boundary_face
+         DiffOperators.project_node_to_boundary_node
+         DiffOperators.stencil_cell_gradient
+         DiffOperators.stencil_cell_gradient_x
+         DiffOperators.stencil_cell_gradient_y
+         DiffOperators.stencil_cell_gradient_z
+  
+  
+
+.. minigallery:: discretize.operators.DiffOperators
+    :add-heading: Galleries and Tutorials using ``discretize.operators.DiffOperators``
+    :heading-level: -

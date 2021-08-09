@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.rotation\_matrix
+===============================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.rotation_matrix

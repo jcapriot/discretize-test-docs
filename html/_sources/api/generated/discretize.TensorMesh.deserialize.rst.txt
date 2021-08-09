@@ -1,0 +1,6 @@
+discretize.TensorMesh.deserialize
+=================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.deserialize

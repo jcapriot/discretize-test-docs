@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.rotation\_matrix
+===========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.rotation_matrix

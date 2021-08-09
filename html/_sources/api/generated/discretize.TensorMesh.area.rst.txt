@@ -1,0 +1,6 @@
+discretize.TensorMesh.area
+==========================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.area

@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.\_\_len\_\_
+====================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseMesh.__len__

@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.reference\_is\_rotated
+==========================================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseRectangularMesh.reference_is_rotated

@@ -1,0 +1,6 @@
+discretize.TreeMesh.cellGradBC
+==============================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.cellGradBC

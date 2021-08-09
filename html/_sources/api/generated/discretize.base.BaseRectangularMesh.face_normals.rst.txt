@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.face\_normals
+=================================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseRectangularMesh.face_normals

@@ -1,0 +1,6 @@
+discretize.TreeMesh.dim
+=======================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TreeMesh.dim

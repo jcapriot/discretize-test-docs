@@ -1,0 +1,6 @@
+discretize.TensorMesh.edge\_x\_lengths
+======================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.edge_x_lengths

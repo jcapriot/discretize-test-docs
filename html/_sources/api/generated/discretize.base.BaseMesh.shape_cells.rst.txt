@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.shape\_cells
+=====================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseMesh.shape_cells

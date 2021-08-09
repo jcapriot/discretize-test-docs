@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.getFaceInnerProductDeriv
+===================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CylindricalMesh.getFaceInnerProductDeriv

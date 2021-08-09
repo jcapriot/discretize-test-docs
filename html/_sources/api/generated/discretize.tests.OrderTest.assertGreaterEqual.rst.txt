@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertGreaterEqual
+=============================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertGreaterEqual

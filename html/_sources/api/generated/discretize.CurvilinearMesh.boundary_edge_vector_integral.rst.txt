@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.boundary\_edge\_vector\_integral
+===========================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.boundary_edge_vector_integral

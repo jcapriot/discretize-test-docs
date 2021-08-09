@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.get\_edge\_inner\_product
+====================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.get_edge_inner_product

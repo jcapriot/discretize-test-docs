@@ -1,0 +1,6 @@
+discretize.mixins.TreeMeshIO.writeModelUBC
+==========================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: TreeMeshIO.writeModelUBC

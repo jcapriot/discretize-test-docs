@@ -1,0 +1,6 @@
+discretize.TensorMesh.face\_y\_divergence
+=========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.face_y_divergence

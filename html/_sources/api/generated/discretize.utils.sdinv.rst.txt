@@ -1,0 +1,10 @@
+﻿discretize.utils.sdinv
+======================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: sdinv
+
+.. minigallery:: discretize.utils.sdinv
+    :add-heading: Galleries and Tutorials using ``discretize.utils.sdinv``
+    :heading-level: -

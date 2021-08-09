@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertLogs
+=====================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertLogs

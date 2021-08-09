@@ -1,0 +1,6 @@
+discretize.operators.DiffOperators.get\_BC\_projections
+=======================================================
+
+.. currentmodule:: discretize.operators
+
+.. automethod:: DiffOperators.get_BC_projections

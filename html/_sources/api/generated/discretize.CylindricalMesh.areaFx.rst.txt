@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.areaFx
+=================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.areaFx

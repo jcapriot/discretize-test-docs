@@ -1,0 +1,10 @@
+﻿discretize.utils.as\_array\_n\_by\_dim
+======================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: as_array_n_by_dim
+
+.. minigallery:: discretize.utils.as_array_n_by_dim
+    :add-heading: Galleries and Tutorials using ``discretize.utils.as_array_n_by_dim``
+    :heading-level: -

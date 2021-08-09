@@ -1,0 +1,6 @@
+discretize.TensorMesh.cell\_gradient\_BC
+========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.cell_gradient_BC

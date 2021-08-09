@@ -1,0 +1,6 @@
+discretize.TreeMesh.hanging\_edges\_z
+=====================================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.hanging_edges_z

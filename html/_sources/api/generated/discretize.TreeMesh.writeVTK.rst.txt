@@ -1,0 +1,6 @@
+discretize.TreeMesh.writeVTK
+============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.writeVTK

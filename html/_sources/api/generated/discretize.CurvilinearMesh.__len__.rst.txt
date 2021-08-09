@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.\_\_len\_\_
+======================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.__len__

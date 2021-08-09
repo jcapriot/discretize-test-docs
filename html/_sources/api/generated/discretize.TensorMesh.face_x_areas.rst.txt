@@ -1,0 +1,6 @@
+discretize.TensorMesh.face\_x\_areas
+====================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.face_x_areas

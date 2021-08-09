@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.edgeCurl
+===================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.edgeCurl

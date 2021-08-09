@@ -1,0 +1,6 @@
+discretize.base.BaseTensorMesh.vectorNx
+=======================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseTensorMesh.vectorNx

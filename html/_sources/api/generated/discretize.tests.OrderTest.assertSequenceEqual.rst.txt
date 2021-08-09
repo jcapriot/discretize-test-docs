@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertSequenceEqual
+==============================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertSequenceEqual

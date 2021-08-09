@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.project\_edge\_vector
+=========================================================
+
+.. currentmodule:: discretize.base
+
+.. automethod:: BaseRectangularMesh.project_edge_vector

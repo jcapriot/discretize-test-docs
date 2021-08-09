@@ -1,0 +1,10 @@
+﻿discretize.utils.inverse\_2x2\_block\_diagonal
+==============================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: inverse_2x2_block_diagonal
+
+.. minigallery:: discretize.utils.inverse_2x2_block_diagonal
+    :add-heading: Galleries and Tutorials using ``discretize.utils.inverse_2x2_block_diagonal``
+    :heading-level: -

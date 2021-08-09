@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.deserialize
+======================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.deserialize

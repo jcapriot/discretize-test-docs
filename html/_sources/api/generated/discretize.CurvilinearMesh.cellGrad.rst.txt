@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.cellGrad
+===================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.cellGrad

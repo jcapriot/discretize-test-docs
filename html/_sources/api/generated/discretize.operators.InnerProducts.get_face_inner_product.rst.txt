@@ -1,0 +1,6 @@
+discretize.operators.InnerProducts.get\_face\_inner\_product
+============================================================
+
+.. currentmodule:: discretize.operators
+
+.. automethod:: InnerProducts.get_face_inner_product

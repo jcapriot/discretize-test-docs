@@ -1,0 +1,6 @@
+discretize.TensorMesh.getBCProjWF
+=================================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.getBCProjWF

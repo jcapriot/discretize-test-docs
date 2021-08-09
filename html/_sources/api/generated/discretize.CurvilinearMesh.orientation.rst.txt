@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.orientation
+======================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.orientation

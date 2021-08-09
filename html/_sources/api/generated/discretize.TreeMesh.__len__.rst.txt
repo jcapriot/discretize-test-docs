@@ -1,0 +1,6 @@
+discretize.TreeMesh.\_\_len\_\_
+===============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.__len__

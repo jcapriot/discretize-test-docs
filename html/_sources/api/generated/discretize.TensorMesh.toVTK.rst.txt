@@ -1,0 +1,6 @@
+discretize.TensorMesh.toVTK
+===========================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.toVTK

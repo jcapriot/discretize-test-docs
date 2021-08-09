@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.edge\_lengths
+========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.edge_lengths

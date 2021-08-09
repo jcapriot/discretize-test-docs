@@ -1,0 +1,6 @@
+discretize.base.BaseRectangularMesh.origin
+==========================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseRectangularMesh.origin

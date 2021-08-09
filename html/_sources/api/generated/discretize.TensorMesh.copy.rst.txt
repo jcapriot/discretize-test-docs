@@ -1,0 +1,6 @@
+discretize.TensorMesh.copy
+==========================
+
+.. currentmodule:: discretize
+
+.. automethod:: TensorMesh.copy

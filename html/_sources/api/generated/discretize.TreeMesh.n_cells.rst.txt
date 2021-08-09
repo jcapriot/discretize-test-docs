@@ -1,0 +1,6 @@
+discretize.TreeMesh.n\_cells
+============================
+
+.. currentmodule:: discretize
+
+.. autoattribute:: TreeMesh.n_cells

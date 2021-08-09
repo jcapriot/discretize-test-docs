@@ -1,0 +1,36 @@
+﻿discretize.mixins.TensorMeshIO
+==============================
+
+.. currentmodule:: discretize.mixins
+
+.. inheritance-diagram:: TensorMeshIO
+    :parts: 1
+
+.. autoclass:: TensorMeshIO
+
+  
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         TensorMeshIO.readModelUBC
+         TensorMeshIO.readUBC
+         TensorMeshIO.readVTK
+         TensorMeshIO.read_UBC
+         TensorMeshIO.read_model_UBC
+         TensorMeshIO.read_vtk
+         TensorMeshIO.vtk_to_tensor_mesh
+         TensorMeshIO.writeModelUBC
+         TensorMeshIO.writeUBC
+         TensorMeshIO.write_UBC
+         TensorMeshIO.write_model_UBC
+      
+  
+
+  
+  
+  
+
+.. minigallery:: discretize.mixins.TensorMeshIO
+    :add-heading: Galleries and Tutorials using ``discretize.mixins.TensorMeshIO``
+    :heading-level: -

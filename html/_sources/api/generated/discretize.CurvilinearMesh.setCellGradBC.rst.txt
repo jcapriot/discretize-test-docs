@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.setCellGradBC
+========================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.setCellGradBC

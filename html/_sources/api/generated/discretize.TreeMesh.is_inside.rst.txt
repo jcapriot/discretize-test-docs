@@ -1,0 +1,6 @@
+discretize.TreeMesh.is\_inside
+==============================
+
+.. currentmodule:: discretize
+
+.. automethod:: TreeMesh.is_inside

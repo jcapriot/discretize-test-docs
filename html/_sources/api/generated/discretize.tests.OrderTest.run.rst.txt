@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.run
+==============================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.run

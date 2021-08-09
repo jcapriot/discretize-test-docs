@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.assertRaises
+=======================================
+
+.. currentmodule:: discretize.tests
+
+.. automethod:: OrderTest.assertRaises

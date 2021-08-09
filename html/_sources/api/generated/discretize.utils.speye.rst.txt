@@ -1,0 +1,10 @@
+﻿discretize.utils.speye
+======================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: speye
+
+.. minigallery:: discretize.utils.speye
+    :add-heading: Galleries and Tutorials using ``discretize.utils.speye``
+    :heading-level: -

@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.set\_cell\_gradient\_BC
+==================================================
+
+.. currentmodule:: discretize
+
+.. automethod:: CurvilinearMesh.set_cell_gradient_BC

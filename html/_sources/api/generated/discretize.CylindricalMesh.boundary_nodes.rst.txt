@@ -1,0 +1,6 @@
+discretize.CylindricalMesh.boundary\_nodes
+==========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CylindricalMesh.boundary_nodes

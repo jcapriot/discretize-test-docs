@@ -1,0 +1,10 @@
+﻿discretize.utils.rotate\_points\_from\_normals
+==============================================
+
+.. currentmodule:: discretize.utils
+
+.. autofunction:: rotate_points_from_normals
+
+.. minigallery:: discretize.utils.rotate_points_from_normals
+    :add-heading: Galleries and Tutorials using ``discretize.utils.rotate_points_from_normals``
+    :heading-level: -

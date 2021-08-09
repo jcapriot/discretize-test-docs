@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.boundary\_face\_outward\_normals
+===========================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.boundary_face_outward_normals

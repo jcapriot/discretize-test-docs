@@ -1,0 +1,6 @@
+discretize.TensorMesh.boundary\_node\_vector\_integral
+======================================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: TensorMesh.boundary_node_vector_integral

@@ -1,0 +1,6 @@
+discretize.CurvilinearMesh.nodal\_laplacian
+===========================================
+
+.. currentmodule:: discretize
+
+.. autoproperty:: CurvilinearMesh.nodal_laplacian

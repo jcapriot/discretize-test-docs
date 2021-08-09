@@ -1,0 +1,6 @@
+discretize.base.BaseMesh.n\_edges
+=================================
+
+.. currentmodule:: discretize.base
+
+.. autoproperty:: BaseMesh.n_edges

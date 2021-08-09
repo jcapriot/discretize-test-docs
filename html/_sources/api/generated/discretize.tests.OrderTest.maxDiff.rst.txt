@@ -1,0 +1,6 @@
+discretize.tests.OrderTest.maxDiff
+==================================
+
+.. currentmodule:: discretize.tests
+
+.. autoattribute:: OrderTest.maxDiff

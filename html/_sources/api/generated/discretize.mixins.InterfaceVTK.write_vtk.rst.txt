@@ -1,0 +1,6 @@
+discretize.mixins.InterfaceVTK.write\_vtk
+=========================================
+
+.. currentmodule:: discretize.mixins
+
+.. automethod:: InterfaceVTK.write_vtk
